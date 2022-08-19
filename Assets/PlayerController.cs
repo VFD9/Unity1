@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Speed = 5;
+        Speed = 10;
         Rotate = 100.0f;
     }
 
@@ -42,7 +42,12 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             // ºÒ·¿¹ß»ç
-            Instantiate(BulletObject);
+            GameObject Obj = Instantiate(BulletObject);
+
+            Rigidbody Rigid = Obj.transform.GetComponent<Rigidbody>();
+
+            Obj.transform.LookAt(transform.forward);
+            Rigid.AddForce(transform.forward * 1500.0f);
         }
     }
 }

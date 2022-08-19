@@ -10,6 +10,7 @@ public class BulletController : MonoBehaviour
 {
     [SerializeField] private float Speed;
     [SerializeField] private Vector3 FirePoint;
+    [SerializeField] private GameObject BoomObject;
 
     private void Awake()
     {
@@ -19,20 +20,19 @@ public class BulletController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Speed = 25.0f;
+        Speed = 30.0f;
         transform.position = FirePoint;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.Translate(
-            0.0f, 0.0f, Speed * Time.deltaTime);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.name == "Cube")
+        if (collision.transform.tag == "Wall")
+        {
+            GameObject Obj = Instantiate(BoomObject);
+            Obj.transform.position = this.transform.position;
+
+            Destroy(Obj, 0.5f);
             Destroy(this.gameObject);
+        }
     }
 }

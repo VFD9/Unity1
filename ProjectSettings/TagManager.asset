@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Plane
+  - FxTemporaire
+  - Wall
   layers:
   - Default
   - TransparentFX

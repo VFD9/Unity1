@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 0
   FirePoint: {x: 0, y: 0, z: 0}
+  BoomObject: {fileID: 1247311384876784, guid: 9bd8e54f94f292442a1b498f0ba601cd, type: 3}
 --- !u!54 &-3393402030923835437
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,5 +128,5 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.05
-  m_Center: {x: 0, y: -0.000000016763806, z: 0.23}
+  m_Radius: 0.049
+  m_Center: {x: 0, y: 0, z: 0.23}
