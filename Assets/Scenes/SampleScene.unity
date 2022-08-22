@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44272792, g: 0.49186403, b: 0.5716539, a: 1}
+  m_IndirectSpecularColor: {r: 0.44272727, g: 0.4918636, b: 0.5716528, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1045,6 +1045,8 @@ MonoBehaviour:
   Speed: 0
   Rotate: 0
   BulletObject: {fileID: 8362787410197010642, guid: eed0b3f77bc3f3840b096580275c81e7, type: 3}
+  FireObject: {fileID: 1892078723244562, guid: 167155c6ab6c12641b5caa0c27e5096b, type: 3}
+  Anim: {fileID: 0}
 --- !u!4 &2044494052 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3011469963919986407, guid: dc84a58afe1344547a230a5cb3c072c8, type: 3}
@@ -1060,10 +1062,10 @@ Animator:
   m_GameObject: {fileID: 2044494048}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0093735aab3f49a408748d37d56820b0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 70899b288cf2cf146985609c61ec39e3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 

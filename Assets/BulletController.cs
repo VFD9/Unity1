@@ -11,6 +11,7 @@ public class BulletController : MonoBehaviour
     [SerializeField] private float Speed;
     [SerializeField] private Vector3 FirePoint;
     [SerializeField] private GameObject BoomObject;
+    [SerializeField] private GameObject BoomEffect;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class BulletController : MonoBehaviour
     {
         Speed = 30.0f;
         transform.position = FirePoint;
+        
     }
 
     private void OnCollisionEnter(Collision collision)
