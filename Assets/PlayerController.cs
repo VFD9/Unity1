@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Speed = 10;
+        Speed = 5;
         Rotate = 100.0f;
     }
 
