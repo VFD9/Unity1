@@ -7,6 +7,7 @@ TagManager:
   - Plane
   - FxTemporaire
   - Wall
+  - Enemy
   layers:
   - Default
   - TransparentFX

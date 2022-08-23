@@ -12,11 +12,11 @@ public class Player : MonoBehaviour
     public float Rotate;
     
     public GameObject BulletObject;
-    [SerializeField] private Animator Anim;
+    //[SerializeField] private Animator Anim;
 
     private void Awake()
     {
-        Anim = transform.GetComponent<Animator>();
+        //Anim = transform.GetComponent<Animator>();
     }
 
     // Start is called before the first frame update
@@ -45,12 +45,12 @@ public class Player : MonoBehaviour
           0.0f,
           fVer * Time.deltaTime * Speed);
         
-        Anim.SetFloat("Speed", fVer);
+        //Anim.SetFloat("Speed", fVer);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // ºÒ·¿¹ß»ç
-            Anim.SetBool("BoolFire", true);
+            //Anim.SetBool("BoolFire", true);
             GameObject Obj = Instantiate(BulletObject);
             Rigidbody Rigid = Obj.transform.GetComponent<Rigidbody>();
 
@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyUp(KeyCode.Space))
         {
-            Anim.SetBool("BoolFire", false);
+            //Anim.SetBool("BoolFire", false);
         }
     }
 }

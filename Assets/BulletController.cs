@@ -38,9 +38,15 @@ public class BulletController : MonoBehaviour
         {
             GameObject Obj = Instantiate(BoomObject);
             Obj.transform.position = this.transform.position;
+            Destroy(transform.gameObject);
+        }
 
-            Destroy(Obj, 0.5f);
-            Destroy(this.gameObject);
+        if (collision.transform.tag == "Enemy")
+        {
+            GameObject Obj = Instantiate(BoomObject);
+            Obj.transform.position = this.transform.position;
+            Destroy(transform.gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }
