@@ -18,12 +18,18 @@ public class BulletController : MonoBehaviour
         FirePoint = GameObject.Find("FirePoint").transform.position;
     }
 
+    private void OnEnable()
+    {
+        GameObject EffectObj = Instantiate(BoomEffect);
+        EffectObj.transform.position = FirePoint;
+        Destroy(EffectObj, 0.5f);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         Speed = 30.0f;
         transform.position = FirePoint;
-        
     }
 
     private void OnCollisionEnter(Collision collision)

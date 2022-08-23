@@ -101,6 +101,7 @@ MonoBehaviour:
   Speed: 0
   FirePoint: {x: 0, y: 0, z: 0}
   BoomObject: {fileID: 1247311384876784, guid: 9bd8e54f94f292442a1b498f0ba601cd, type: 3}
+  BoomEffect: {fileID: 1892078723244562, guid: 167155c6ab6c12641b5caa0c27e5096b, type: 3}
 --- !u!54 &-3393402030923835437
 Rigidbody:
   m_ObjectHideFlags: 0
