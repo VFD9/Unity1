@@ -61,5 +61,19 @@ public class Player : MonoBehaviour
         {
             Anim.SetBool("BoolFire", false);
         }
+
+        /*
+        if(Input.GetMouseButtonDown(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                Debug.Log(hit.transform.name + " : " + hit.point);
+            }
+        }
+        */
     }
 }
