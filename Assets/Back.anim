@@ -54,7 +54,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Wheels/TankFree_Wheel_b_left
+    path: Body/Wheels/Wheel_b_left
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -79,7 +79,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Wheels/TankFree_Wheel_b_right
+    path: Body/Wheels/Wheel_b_right
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -104,7 +104,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Wheels/TankFree_Wheel_f_left
+    path: Body/Wheels/Wheel_f_left
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -129,7 +129,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Wheels/TankFree_Wheel_f_right
+    path: Body/Wheels/Wheel_f_right
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
@@ -142,28 +142,28 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 942563667
+      path: 2546129010
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 92526006
+      path: 1229269329
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2747212613
+      path: 206805604
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4056740261
+      path: 3171552578
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -213,6 +213,25 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
     path: 
     classID: 4
@@ -261,7 +280,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Wheels/TankFree_Wheel_b_left
+    path: Body/Wheels/Wheel_b_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -280,7 +299,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Wheels/TankFree_Wheel_b_left
+    path: Body/Wheels/Wheel_b_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -299,7 +318,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Wheels/TankFree_Wheel_b_left
+    path: Body/Wheels/Wheel_b_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -327,7 +346,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Wheels/TankFree_Wheel_b_right
+    path: Body/Wheels/Wheel_b_right
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -346,7 +365,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Wheels/TankFree_Wheel_b_right
+    path: Body/Wheels/Wheel_b_right
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -365,7 +384,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Wheels/TankFree_Wheel_b_right
+    path: Body/Wheels/Wheel_b_right
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -393,7 +412,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Wheels/TankFree_Wheel_f_left
+    path: Body/Wheels/Wheel_f_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -412,7 +431,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Wheels/TankFree_Wheel_f_left
+    path: Body/Wheels/Wheel_f_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -431,7 +450,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Wheels/TankFree_Wheel_f_left
+    path: Body/Wheels/Wheel_f_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -459,7 +478,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Wheels/TankFree_Wheel_f_right
+    path: Body/Wheels/Wheel_f_right
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -478,7 +497,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Wheels/TankFree_Wheel_f_right
+    path: Body/Wheels/Wheel_f_right
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -497,26 +516,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Wheels/TankFree_Wheel_f_right
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: 
+    path: Body/Wheels/Wheel_f_right
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -527,7 +527,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Wheels/TankFree_Wheel_b_left
+    path: Body/Wheels/Wheel_b_right
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -537,7 +537,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Wheels/TankFree_Wheel_b_left
+    path: Body/Wheels/Wheel_b_right
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -547,7 +547,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Wheels/TankFree_Wheel_b_left
+    path: Body/Wheels/Wheel_b_right
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -557,7 +557,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Wheels/TankFree_Wheel_f_left
+    path: Body/Wheels/Wheel_f_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -567,7 +567,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Wheels/TankFree_Wheel_f_left
+    path: Body/Wheels/Wheel_f_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -577,37 +577,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Wheels/TankFree_Wheel_f_left
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Wheels/TankFree_Wheel_b_right
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Wheels/TankFree_Wheel_b_right
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Wheels/TankFree_Wheel_b_right
+    path: Body/Wheels/Wheel_f_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -646,8 +616,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Wheels/TankFree_Wheel_f_right
+    attribute: m_LocalEulerAngles.z
+    path: Body/Wheels/Wheel_b_left
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -657,7 +627,37 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Wheels/TankFree_Wheel_f_right
+    path: Body/Wheels/Wheel_b_left
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Body/Wheels/Wheel_b_left
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Body/Wheels/Wheel_f_right
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Body/Wheels/Wheel_f_right
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -667,7 +667,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Wheels/TankFree_Wheel_f_right
+    path: Body/Wheels/Wheel_f_right
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
