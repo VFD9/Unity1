@@ -443,7 +443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 0
   Rotate: 0
-  BulletObject: {fileID: 6299071353543684385, guid: 5590877fc89e1504288dcb91d9c338cb, type: 3}
+  BulletObject: {fileID: 8362787410197010642, guid: eed0b3f77bc3f3840b096580275c81e7, type: 3}
   Anim: {fileID: 0}
 --- !u!95 &6716247316707926038
 Animator:
