@@ -32,13 +32,6 @@ public class Point : MonoBehaviour
 
             EnemyController gObj = Instantiate(Obj);
             gObj.transform.position = transform.position;
-
-            /*
-            Rigidbody Rigid = Obj.GetComponent<Rigidbody>();
-            Rigid.AddForce(Obj.transform.forward * 100.0f);
-            */
-
-            //EnemyObj = 
         }
     }
 }
