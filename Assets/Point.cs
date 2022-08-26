@@ -27,11 +27,13 @@ public class Point : MonoBehaviour
 
         if(fTime <= 0)
         {
-            // Enemy 持失
             fTime = Random.Range(5.0f, 10.0f);
 
-            EnemyController gObj = Instantiate(Obj);
-            gObj.transform.position = transform.position;
+            // Enemy 持失
+            EnemyController cObj = Instantiate(Obj);
+            cObj.transform.parent = transform;
+            
+            cObj.transform.position = transform.position;
         }
     }
 }

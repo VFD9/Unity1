@@ -4,64 +4,84 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    private Vector3 RightForward;
-    private Vector3 LeftForward;
+    private Vector3[] Forward = new Vector3[4];
 
-    private bool RightCheck;
-    private bool LeftCheck;
+    /*
+    private Vector3 RightForward = new Vector3();
+    private Vector3 LeftForward = new Vector3();
+
+    private Vector3 RightForward = new Vector3();
+    private Vector3 LeftForward = new Vector3();
+    */
+
+    private List<string> ObstacleList = new List<string>();
+
+    private bool[] Check = new bool[4];
 
     private float Angle;
-
-    // Start is called before the first frame update
+    
     void Start()
     {
-        RightForward = new Vector3(1.0f, 0.0f, 1.0f);
-        LeftForward = new Vector3(-1.0f, 0.0f, 1.0f);
+        ObstacleList.Add("Player");
+        ObstacleList.Add("Enemy");
+        ObstacleList.Add("Wall");
 
-        RightCheck = false;
-        LeftCheck = false;
+        Forward[0] = new Vector3(-1.0f, 0.0f, 2.0f);
+        Forward[1] = new Vector3(-0.5f, 0.0f, 5.0f);
+        Forward[2] = new Vector3(0.5f, 0.0f, 5.0f);
+        Forward[3] = new Vector3(1.0f, 0.0f, 2.0f);
 
         Angle = 0.0f;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
-        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
         RaycastHit hit;
 
-        RightCheck = false;
-        LeftCheck = false;
+        for (int i = 0; i < 4; ++i)
+            Check[i] = false;
 
-        if (Physics.Raycast(transform.position, RightForward, out hit, 2.0f))
+        Angle = 0.0f;
+
+        for (int i = 0; i < 4; ++i)
         {
-            if (hit.transform.tag == "Wall")
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Forward[i]), out hit, Vector3.Distance(transform.position, Forward[i]) + 1.5f))
             {
-                RightCheck = true;
-                Angle -= 0.5f;
+                Debug.Log(Mathf.Sqrt(Vector3.Distance(transform.position, Forward[i])));
+
+                foreach(var str in ObstacleList)
+                {
+                    if (hit.transform.tag == str)
+                    {
+                        Check[i] = true;
+
+                        switch (i)
+                        {
+                            case 0:
+                                Angle += 1.0f;
+                                break;
+
+                            case 1:
+                                Angle += 0.5f;
+                                break;
+
+                            case 2:
+                                Angle -= 0.5f;
+                                break;
+
+                            case 3:
+                                Angle -= 1.0f;
+                                break;
+                        }
+                    }
+                }
             }
+
+            if (Check[i])
+                Debug.DrawLine(transform.position, transform.position + (transform.TransformDirection(Forward[i])), Color.red);
+            else
+                Debug.DrawLine(transform.position, transform.position + (transform.TransformDirection(Forward[i])), Color.green);
         }
-
-        if (Physics.Raycast(transform.position, LeftForward, out hit, 2.0f))
-        {
-            if (hit.transform.tag == "Wall")
-            {
-                LeftCheck = true;
-                Angle += 0.5f;
-            }
-        }
-
-        if(LeftCheck)
-            Debug.DrawLine(transform.position, transform.position + (LeftForward * 2.0f), Color.red);
-        else
-            Debug.DrawLine(transform.position, transform.position + (LeftForward * 2.0f), Color.green);
-
-        if(RightCheck)
-            Debug.DrawLine(transform.position, transform.position + (RightForward * 2.0f), Color.red);
-        else
-            Debug.DrawLine(transform.position, transform.position + (RightForward * 2.0f), Color.green);
-
-        transform.RotateAround(transform.up, transform.position, Angle);
+        transform.Rotate(transform.up, Angle);
     }
 }

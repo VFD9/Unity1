@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
-    [SerializeField] private float Speed;
+    //[SerializeField] private float Speed;
     [SerializeField] private Vector3 FirePoint;
     [SerializeField] private GameObject BoomObject;
     [SerializeField] private GameObject BoomEffect;
@@ -28,7 +28,7 @@ public class BulletController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Speed = 30.0f;
+        //Speed = 30.0f;
         transform.position = FirePoint;
     }
 
