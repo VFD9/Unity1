@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44272727, g: 0.4918636, b: 0.5716528, a: 1}
+  m_IndirectSpecularColor: {r: 0.44272792, g: 0.49186403, b: 0.5716539, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -431,7 +431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3489863277795488632, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.19
+      value: 4.49
       objectReference: {fileID: 0}
     - target: {fileID: 3489863277795488632, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -472,7 +472,7 @@ PrefabInstance:
     - target: {fileID: 4075027999390069429, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: BulletObject
       value: 
-      objectReference: {fileID: 8362787410197010642, guid: 5590877fc89e1504288dcb91d9c338cb, type: 3}
+      objectReference: {fileID: 8362787410197010642, guid: eed0b3f77bc3f3840b096580275c81e7, type: 3}
     - target: {fileID: 6716247316707926041, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_Name
       value: Tank
