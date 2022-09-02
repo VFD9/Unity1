@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     
     public GameObject BulletObject;
     [SerializeField] private Animator Anim;
+    [SerializeField] private GameObject head;
 
     private void Awake()
     {
@@ -62,18 +63,18 @@ public class Player : MonoBehaviour
             Anim.SetBool("BoolFire", false);
         }
 
-        /*
-        if(Input.GetMouseButtonDown(0))
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        float MouseX = Input.GetAxis("Mouse X");
 
-            RaycastHit hit;
+        Quaternion HeadQuaternion = Quaternion.Euler(new Vector3(0.0f, MouseX, 0.0f));
 
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-            {
-                Debug.Log(hit.transform.name + " : " + hit.point);
-            }
-        }
-        */
+        head.transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                HeadQuaternion,
+                Time.deltaTime* 10.0f);
+        
+        //if(Input.GetMouseButtonDown(0))
+		//{
+        //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		//}
     }
 }

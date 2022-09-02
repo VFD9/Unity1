@@ -47,7 +47,7 @@ public class EnemyController : MonoBehaviour
         {
             if (Physics.Raycast(transform.position, transform.TransformDirection(Forward[i]), out hit, Vector3.Distance(transform.position, Forward[i]) + 1.5f))
             {
-                Debug.Log(Mathf.Sqrt(Vector3.Distance(transform.position, Forward[i])));
+                //Debug.Log(Mathf.Sqrt(Vector3.Distance(transform.position, Forward[i])));
 
                 foreach(var str in ObstacleList)
                 {

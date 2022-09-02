@@ -21,8 +21,6 @@ public class Test : MonoBehaviour
             Points[i].y = transform.position.y;
             Points[i].z = transform.position.z + Mathf.Sin(Angle * 180.0f / Mathf.PI) * 5.0f;
 
-            Debug.DrawLine(transform.position, Points[i], Color.green);
-
             GameObject _Obj = Instantiate(Point_Obj);
             _Obj.transform.position = Points[i];
         }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44272792, g: 0.49186403, b: 0.5716539, a: 1}
+  m_IndirectSpecularColor: {r: 0.44272727, g: 0.4918636, b: 0.5716528, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -355,7 +355,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005655327}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -431,7 +431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3489863277795488632, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.49
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3489863277795488632, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -470,9 +470,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4075027999390069429, guid: 156f45452c74a5c42b618456315f672d, type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 1464492808}
+    - target: {fileID: 4075027999390069429, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: BulletObject
       value: 
-      objectReference: {fileID: 8362787410197010642, guid: eed0b3f77bc3f3840b096580275c81e7, type: 3}
+      objectReference: {fileID: 8362787410197010642, guid: 5590877fc89e1504288dcb91d9c338cb, type: 3}
+    - target: {fileID: 6716247316707926038, guid: 156f45452c74a5c42b618456315f672d, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6716247316707926041, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_Name
       value: Tank
@@ -518,7 +526,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348141150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -576,6 +584,11 @@ Transform:
   m_Father: {fileID: 1931759732}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1464492808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1057702451803434855, guid: 156f45452c74a5c42b618456315f672d, type: 3}
+  m_PrefabInstance: {fileID: 1347272603}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1574065431
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,51 +783,6 @@ Transform:
   m_Father: {fileID: 1931759732}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 297.95, z: 0}
---- !u!1 &1679202873
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1679202874}
-  - component: {fileID: 1679202875}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1679202874
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679202873}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.47, y: 0, z: -11.74}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1679202875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679202873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f045f1ae4b7c1ee4faed85c05db96bbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Point_Obj: {fileID: 1303844379868095442, guid: 5e387723fe589a7419bfab3ec431bfbe, type: 3}
 --- !u!1 &1880831384
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,7 +956,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961046383}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
