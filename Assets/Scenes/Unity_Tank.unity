@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44272727, g: 0.4918636, b: 0.5716528, a: 1}
+  m_IndirectSpecularColor: {r: 0.44272792, g: 0.49186403, b: 0.5716539, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -476,7 +476,7 @@ PrefabInstance:
     - target: {fileID: 4075027999390069429, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: BulletObject
       value: 
-      objectReference: {fileID: 8362787410197010642, guid: 5590877fc89e1504288dcb91d9c338cb, type: 3}
+      objectReference: {fileID: 8362787410197010642, guid: eed0b3f77bc3f3840b096580275c81e7, type: 3}
     - target: {fileID: 6716247316707926038, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 1
@@ -904,7 +904,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931759731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.6064086, y: -2.4576147, z: -8.93943}
+  m_LocalPosition: {x: 7.33, y: 0, z: -6.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

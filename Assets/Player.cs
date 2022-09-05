@@ -20,14 +20,12 @@ public class Player : MonoBehaviour
         Anim = transform.GetComponent<Animator>();
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         Speed = 5;
         Rotate = 100.0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
         // 키 입력을 받아온다.
@@ -71,10 +69,19 @@ public class Player : MonoBehaviour
                 transform.rotation,
                 HeadQuaternion,
                 Time.deltaTime* 10.0f);
-        
-        //if(Input.GetMouseButtonDown(0))
-		//{
-        //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-		//}
+
+        /*
+        if(Input.GetMouseButtonDown(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                Debug.Log(hit.transform.name + " : " + hit.point);
+            }
+        }
+        */
     }
 }

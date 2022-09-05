@@ -19,7 +19,6 @@ public class FollowCamera : MonoBehaviour
     private Vector3 CameraAngles;
     private Quaternion CameraQuaternion;
 
-
     void Start()
     {
         Offset = new Vector3(0.0f, 5.0f, -15.0f);
@@ -27,7 +26,6 @@ public class FollowCamera : MonoBehaviour
 
         CameraAngles = new Vector3();
         CameraQuaternion = new Quaternion();
-
     }
 
     void Update()
