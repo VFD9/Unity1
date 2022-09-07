@@ -15,7 +15,6 @@ public class Player : MonoBehaviour
     private Animator Anim;
     private GameObject MissilePrefab;
     private GameObject SparkPrefab;
-    //private GameObject SmokePrefab;
     private GameObject Head;
 
     private void Awake()
@@ -27,7 +26,6 @@ public class Player : MonoBehaviour
         
         MissilePrefab = ((GameObject)Resources.Load("Prefabs/Missile"));
         SparkPrefab = ((GameObject)Resources.Load("Particles/SparksHit"));
-        //SmokePrefab = ((GameObject)Resources.Load("Particles/Explosion"));
 
         Head = transform.Find("Tower").gameObject;
     }
@@ -41,8 +39,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         // 키 입력을 받아온다.
-        float fHor = Input.GetAxisRaw("Horizontal"); // ��.�� Ű
-        float fVer = Input.GetAxisRaw("Vertical"); // ��.�Ʒ� Ű
+        float fHor = Input.GetAxisRaw("Horizontal"); // 좌, 우 키
+        float fVer = Input.GetAxisRaw("Vertical"); // 위, 아래 키
 
         // fHor * Time.deltaTime * PlayerSpeed
 
