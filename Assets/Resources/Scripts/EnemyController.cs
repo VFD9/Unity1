@@ -112,7 +112,7 @@ public class EnemyController : MonoBehaviour
     private void Move()
     {
         Direction = (Target.transform.position - transform.position).normalized; // normalized는 방향 벡터로 만들어주는 함수이다.
-        transform.position += Direction * 2.5f * Time.deltaTime;
+        transform.position += Direction * 5.0f * Time.deltaTime;
     }
 
 	private void OnTriggerEnter(Collider other)
