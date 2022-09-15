@@ -7,7 +7,7 @@ public class FollowCamera : MonoBehaviour
     [SerializeField] private Transform Target;
     [SerializeField] private Vector3 Offset;
 
-    // 부드러운 회전
+    // ** 부드러운 회전
     private Vector3 CameraAngles;
     private Quaternion CameraQuaternion;
 
@@ -22,7 +22,7 @@ public class FollowCamera : MonoBehaviour
 
     void Update()
     {
-        // 부드러운 이동
+        // ** 부드러운 이동
         transform.position = Vector3.Lerp(
               transform.position,
               Target.position + Offset,

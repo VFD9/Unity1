@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     {
         Anim = transform.GetComponent<Animator>();
 
-        // 마우스 커서를 화면 중앙에서 이동하지 않게 하며, 안보이게 한다.
+        // ** 마우스 커서를 화면 중앙에서 이동하지 않게 하며, 안보이게 한다.
         Cursor.lockState = CursorLockMode.Locked;
         
         MissilePrefab = ((GameObject)Resources.Load("Prefabs/Missile"));
@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        // 키 입력을 받아온다.
+        // ** 키 입력을 받아온다.
         float fHor = Input.GetAxisRaw("Horizontal"); // 좌, 우 키
         float fVer = Input.GetAxisRaw("Vertical"); // 위, 아래 키
 
@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            // 불렛발사
+            // ** 불렛발사
             Anim.SetBool("BoolFire", true);
             GameObject Obj = Instantiate(MissilePrefab);
             Rigidbody Rigid = Obj.transform.GetComponent<Rigidbody>();
