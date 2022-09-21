@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
         Anim = transform.GetComponent<Animator>();
 
         // ** 마우스 커서를 화면 중앙에서 이동하지 않게 하며, 안보이게 한다.
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         
         MissilePrefab = ((GameObject)Resources.Load("Prefabs/Missile"));
         SparkPrefab = ((GameObject)Resources.Load("Particles/SparksHit"));
