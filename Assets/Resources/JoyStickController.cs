@@ -37,12 +37,15 @@ public class JoyStickController : MonoBehaviour, IDragHandler, IPointerUpHandler
 
         // ** 움직임 계산.
         OnTouch(eventData.position);
+        Debug.Log(eventData.position);
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
         // ** 입력이 시작되면 터치 입력 활성화.
         TouchCheck = true;
+
+        BackBoard.position = eventData.position;
     }
 
     public void OnPointerUp(PointerEventData eventData)
@@ -111,10 +114,5 @@ public class JoyStickController : MonoBehaviour, IDragHandler, IPointerUpHandler
 
         // ** 조이스틱이 바라보는 방향으로 타겟을 바라보게한다.(호도법, sin, cos, tan)
         Target.transform.eulerAngles = new Vector3(0.0f, Mathf.Atan2(Direction.x, Direction.y) * Mathf.Rad2Deg, 0.0f);
-
-        if(Input.GetMouseButtonDown(0))
-		{
-            BackBoard.position = _eventData;
-		}
     }
 }
