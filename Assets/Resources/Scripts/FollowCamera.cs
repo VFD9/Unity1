@@ -28,6 +28,7 @@ public class FollowCamera : MonoBehaviour
               Target.position + Offset,
               Time.deltaTime * 2.0f);
 
+        /*
         if (Input.GetMouseButtonDown(1))
         {
             CameraAngles = transform.rotation.eulerAngles;
@@ -49,5 +50,6 @@ public class FollowCamera : MonoBehaviour
                 transform.rotation,
                 CameraQuaternion,
                 Time.deltaTime * 10.0f);
+        */
     }
 }
