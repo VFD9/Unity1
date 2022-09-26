@@ -45,6 +45,6 @@ public class LodingBar : MonoBehaviour
 
         Debug.Log("next Scene");
 
-        SceneManager.LoadScene("mainMenuScene");
+        //SceneManager.LoadScene("mainMenuScene");
     }
 }

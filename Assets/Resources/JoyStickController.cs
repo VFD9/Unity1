@@ -59,7 +59,7 @@ public class JoyStickController : MonoBehaviour, IDragHandler, IPointerUpHandler
 
     private void Awake()
     {
-        Target = GameObject.Find("Tank").gameObject;
+        Target = GameObject.Find("Target").gameObject;
         Stick = GameObject.Find("FilledCircle").GetComponent<RectTransform>();
         BackBoard = GameObject.Find("OutLineCircle").GetComponent<RectTransform>();
     }
