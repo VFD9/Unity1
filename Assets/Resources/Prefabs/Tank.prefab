@@ -445,8 +445,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 0
   Rotate: 0
-  BulletObject: {fileID: 8362787410197010642, guid: 5590877fc89e1504288dcb91d9c338cb, type: 3}
-  Anim: {fileID: 0}
   FirePointObject: {fileID: 1081624660656682029}
 --- !u!95 &6716247316707926038
 Animator:
