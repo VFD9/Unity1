@@ -59,7 +59,7 @@ public class JoyStickController : MonoBehaviour, IDragHandler, IPointerUpHandler
 
     private void Awake()
     {
-        Target = GameObject.Find("Target").gameObject;
+        Target = GameObject.Find("Tank").gameObject;
         Stick = GameObject.Find("FilledCircle").GetComponent<RectTransform>();
         BackBoard = GameObject.Find("OutLineCircle").GetComponent<RectTransform>();
     }
@@ -108,7 +108,7 @@ public class JoyStickController : MonoBehaviour, IDragHandler, IPointerUpHandler
 
         // ** 조이스틱이 움직이는 있는 방향에 맞게 타겟을 이동시켜준다.
         Movement = new Vector3(
-            Direction.x * (Ratio *Speed) * Time.deltaTime,
+            Direction.x * (Ratio * Speed) * Time.deltaTime,
             0.0f,
             Direction.y * (Ratio * Speed) * Time.deltaTime);
 

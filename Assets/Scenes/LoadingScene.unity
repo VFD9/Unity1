@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.771587, g: 0.9100738, b: 0.9952169, a: 1}
+  m_IndirectSpecularColor: {r: 0.77183837, g: 0.91006994, b: 0.9954383, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -343,7 +343,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119756256}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &119756258
 Camera:
   m_ObjectHideFlags: 0
@@ -375,7 +375,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 311
+    m_Bits: 319
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 0bd38392fdd399b469ef5123860118cc, type: 2}
   m_TargetDisplay: 0
@@ -669,8 +669,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308957993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.24, y: 0.09, z: 4.7921524}
-  m_LocalScale: {x: 32, y: 5, z: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 3.55}
+  m_LocalScale: {x: 32, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1266,7 +1266,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -1487,7 +1487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 1
+  m_ShowMaskGraphic: 0
 --- !u!114 &1010378134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1684,15 +1684,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3489863277795488632, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.62
+      value: 3.08
       objectReference: {fileID: 0}
     - target: {fileID: 3489863277795488632, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.78023386
       objectReference: {fileID: 0}
     - target: {fileID: 3489863277795488632, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.20648135
+      value: -3.15
       objectReference: {fileID: 0}
     - target: {fileID: 3489863277795488632, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1760,7 +1760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6716247316707926041, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7077510707147563224, guid: 156f45452c74a5c42b618456315f672d, type: 3}
       propertyPath: m_Layer
