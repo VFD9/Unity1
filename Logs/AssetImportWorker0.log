@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.18362) 64bit Professional' Language: 'ko' Physical Memory: 16264 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 32694 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\2021.3.6f1\Editor\Unity.exe
+E:\Unity Hub\Unity 2021.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/SGA/source/repos/VFD9/UnityProject/Unity
+C:/Users/nicem/source/repos/VFD9/UnityProject/Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7904
-Successfully changed project path to: C:/Users/SGA/source/repos/VFD9/UnityProject/Unity
-C:/Users/SGA/source/repos/VFD9/UnityProject/Unity
+8940
+Successfully changed project path to: C:/Users/nicem/source/repos/VFD9/UnityProject/Unity
+C:/Users/nicem/source/repos/VFD9/UnityProject/Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,61 +47,2072 @@ C:/Users/SGA/source/repos/VFD9/UnityProject/Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 250.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
-[Subsystems] Discovering subsystems at path C:/Program Files/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/SGA/source/repos/VFD9/UnityProject/Unity/Assets
+[Subsystems] Discovering subsystems at path E:/Unity Hub/Unity 2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nicem/source/repos/VFD9/UnityProject/Unity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 630 (ID=0x5912)
-    Vendor:   Intel
-    VRAM:     8132 MB
-    Driver:   26.20.100.7263
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1694
 Initialize mono
-Mono path[0] = 'C:/Program Files/2021.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Mono path[0] = 'E:/Unity Hub/Unity 2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Hub/Unity 2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity Hub/Unity 2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.283627 seconds.
+Register platform support module: E:/Unity Hub/Unity 2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity Hub/Unity 2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.185480 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 105.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.296 seconds
+- Completed reload, in  3.591 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5297ms)
-		BeginReloadAssembly (3555ms)
+	ReloadAssembly (3591ms)
+		BeginReloadAssembly (2427ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1120ms)
-			LoadAssemblies (3553ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (2427ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (710ms)
+			SetupTypeCache (482ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (322ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (215ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (56ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.291663 seconds.
-Android Extension - Scanning For ADB Devices 4622 ms
+Registered in 0.008059 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\nicem\source\repos\VFD9\UnityProject\Unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\nicem\source\repos\VFD9\UnityProject\Unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3718ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (3519ms)
+			LoadAssemblies (2029ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (539ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (888ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (574ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3454 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (55.0 MB). Loaded Objects now: 3955.
+Memory consumption went from 144.2 MB to 89.1 MB.
+Total: 5.148400 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.143700 ms MarkObjects: 4.612300 ms  DeleteObjects: 0.124400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13046.572036 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Leaves.mat
+  artifactKey: Guid(1d6ce39015646794bb453e5b4e85f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Leaves.mat using Guid(1d6ce39015646794bb453e5b4e85f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a798961ad61cef17841399a4913c60f2') in 0.105638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fire_Small_02.prefab
+  artifactKey: Guid(b39ba55e20c520442890d059b89cb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fire_Small_02.prefab using Guid(b39ba55e20c520442890d059b89cb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911f2308f70318e341aaa1148b31e277') in 0.029100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Shard_Rock_03.fbx
+  artifactKey: Guid(cfd0443e83a32b649a2b2814020436cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Shard_Rock_03.fbx using Guid(cfd0443e83a32b649a2b2814020436cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b290f07dffe05579d4c6fdfa76b941') in 0.080783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_GlowSpot_01.prefab
+  artifactKey: Guid(6066b7833d493734a9af353bbd046758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_GlowSpot_01.prefab using Guid(6066b7833d493734a9af353bbd046758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35288ecc5492ce6dfb2f84c94db596c4') in 0.013675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Ice_02.mat
+  artifactKey: Guid(0fbfad6b062b1a84f9f585ef8cfed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Ice_02.mat using Guid(0fbfad6b062b1a84f9f585ef8cfed1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4985cc3b50b84a2761f78b600599a5') in 0.009909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Smoke_Black_Small_01.prefab
+  artifactKey: Guid(8e3bd0dfb73ba1148a16e9557ac87372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Smoke_Black_Small_01.prefab using Guid(8e3bd0dfb73ba1148a16e9557ac87372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64d936815a8156e921bd2edf9c4d90e') in 0.010360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fire_Small_01.prefab
+  artifactKey: Guid(c3039019fa1c65840b1b35eed158363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fire_Small_01.prefab using Guid(c3039019fa1c65840b1b35eed158363c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e4c03007461cbe17a3b93493a3bff4') in 0.011867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Sphere_Pivot_01.fbx
+  artifactKey: Guid(24f5f033eb0f6b543a548b5e7268b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Sphere_Pivot_01.fbx using Guid(24f5f033eb0f6b543a548b5e7268b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34255c77cfff16274b899590fc569a5f') in 0.011895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Bubble_02.png
+  artifactKey: Guid(6c7a37c6766adfc4fac5dffdb14284f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Bubble_02.png using Guid(6c7a37c6766adfc4fac5dffdb14284f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b8ae00ebc9480828c2d0b0f3b94f14') in 0.028869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fire_01.prefab
+  artifactKey: Guid(7c2d45330a7b1894ca1aacb0ebd30599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fire_01.prefab using Guid(7c2d45330a7b1894ca1aacb0ebd30599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7ac03729411a4bfaea5ec68faac436') in 0.011769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Impact_Dirt_01.prefab
+  artifactKey: Guid(4f703a1da613efc43b08b1d2bdcfd49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Impact_Dirt_01.prefab using Guid(4f703a1da613efc43b08b1d2bdcfd49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f298ab6ea6b42a420e56d61e3f985b') in 0.011140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Large_01.prefab
+  artifactKey: Guid(d549624c880a76748ad05456efbce0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Large_01.prefab using Guid(d549624c880a76748ad05456efbce0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ea58865493554569cb9848c43ca183') in 0.016817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Smoke_White_Large_01.prefab
+  artifactKey: Guid(d218dcc2359d93146836fd92e4abae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Smoke_White_Large_01.prefab using Guid(d218dcc2359d93146836fd92e4abae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eec3659a33634cdd29512fee91d9ac') in 0.011135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Smoke_Trail_Small_01.prefab
+  artifactKey: Guid(0e8263b55ce10324ea322a63f7efc1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Smoke_Trail_Small_01.prefab using Guid(0e8263b55ce10324ea322a63f7efc1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a275131157d252049fc0ea60934f98') in 0.010580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Hexagon.png
+  artifactKey: Guid(9b13fd76834a28c4fa9ea626ba446015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Hexagon.png using Guid(9b13fd76834a28c4fa9ea626ba446015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0543135085735141ec3b4c3a6a133301') in 0.009141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_GroundBreak.png
+  artifactKey: Guid(b42eef5c44cfeff449e52cd481203575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_GroundBreak.png using Guid(b42eef5c44cfeff449e52cd481203575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12a28c8d310ca70c315504d04e24cb3') in 0.010954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Crystal_02.fbx
+  artifactKey: Guid(2f044749c52662e4eaf732d9a5b34c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Crystal_02.fbx using Guid(2f044749c52662e4eaf732d9a5b34c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c129ded49667c3e910b202951bd91dd7') in 0.011838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_GoreChunk_04.fbx
+  artifactKey: Guid(280c0d6d103b97d44822e59f9aa95833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_GoreChunk_04.fbx using Guid(280c0d6d103b97d44822e59f9aa95833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abf5086d61bba0e042581f767c65ed0') in 0.012082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Smoke_Mat_05.mat
+  artifactKey: Guid(88dd2abb72819d143a867f0b74333037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Smoke_Mat_05.mat using Guid(88dd2abb72819d143a867f0b74333037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815578bec9102ea583de64027478810f') in 0.009937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Soft_Spot.mat
+  artifactKey: Guid(3bd0bff47a21f0b4089acd1d1b075bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Soft_Spot.mat using Guid(3bd0bff47a21f0b4089acd1d1b075bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b31f00db660ab3d731acfabcd250c0') in 0.009289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Ammo_01.fbx
+  artifactKey: Guid(5b500ac07e3486a48ba9900caae64fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Ammo_01.fbx using Guid(5b500ac07e3486a48ba9900caae64fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbaedf315ac6d8d3b70eee32e241e3d0') in 0.012058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Heavy_Repeating_Tracers_01.prefab
+  artifactKey: Guid(20f6e929a1aba9a4691c344f454ab272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Heavy_Repeating_Tracers_01.prefab using Guid(20f6e929a1aba9a4691c344f454ab272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413155d9ba86167866a5d35faf21412c') in 0.085674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ExperienceGain_01.prefab
+  artifactKey: Guid(7bfa717c06cd39a4caa982d7615971fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ExperienceGain_01.prefab using Guid(7bfa717c06cd39a4caa982d7615971fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfca06efad8d22158692c3fe530cab5') in 0.010483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Circle.mat
+  artifactKey: Guid(f3053f8556ff7cf4fb59de5cf109104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Circle.mat using Guid(f3053f8556ff7cf4fb59de5cf109104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3ec9a8a517098cbabab0c4f15a2777') in 0.010152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fireworks_Large_Red_01.prefab
+  artifactKey: Guid(ca38b4fca70a84e47892790122a1ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fireworks_Large_Red_01.prefab using Guid(ca38b4fca70a84e47892790122a1ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0edaa2fe594def9a3c5a7c83610449') in 0.012981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Vine_03.fbx
+  artifactKey: Guid(f2d9cca9ec7e3e4468eb7a7e4f0db98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Vine_03.fbx using Guid(f2d9cca9ec7e3e4468eb7a7e4f0db98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a493b90cde8e837c50549aeb1940e69') in 0.011594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Pickup_Heart_01.prefab
+  artifactKey: Guid(5a98cb783d692744e8e305c5b0b5f551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Pickup_Heart_01.prefab using Guid(5a98cb783d692744e8e305c5b0b5f551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97533402fc3f8d7f2dcecc1d8fdcd71f') in 0.014164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Snow_01.prefab
+  artifactKey: Guid(02f7f04a484c69143a794e60d5a935b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Snow_01.prefab using Guid(02f7f04a484c69143a794e60d5a935b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d9628990af0089e06ef03d0b2a1e06') in 0.010825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Sparkle_Orbit_01.prefab
+  artifactKey: Guid(3313c584bfb0ca54584fe5b29871dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Sparkle_Orbit_01.prefab using Guid(3313c584bfb0ca54584fe5b29871dfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af6064e6201d8a838e6da74c61714b0') in 0.011862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Magic_Lights_01.prefab
+  artifactKey: Guid(7e569f6542324b042846eedd0b1239e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Magic_Lights_01.prefab using Guid(7e569f6542324b042846eedd0b1239e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842dc8129851bb67dc9ef08709d66151') in 0.010331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Grenade_01.fbx
+  artifactKey: Guid(f60a3ae65039f97489ca0252463e0925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Grenade_01.fbx using Guid(f60a3ae65039f97489ca0252463e0925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed62dcbfb318811bfe2b16d3ac23f3b') in 0.012452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Materials/FX_Plane_Particle.obj
+  artifactKey: Guid(30479c000e383a745bd05d57364b1f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/FX_Plane_Particle.obj using Guid(30479c000e383a745bd05d57364b1f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51592676f6cab7237bd06935e8d3418d') in 0.017952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Explosion_Body_Bloody_01.prefab
+  artifactKey: Guid(3b517eddec185dd4a830743a742ad00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Explosion_Body_Bloody_01.prefab using Guid(3b517eddec185dd4a830743a742ad00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89c8125277bdc69378ad77ea5d8cfdc') in 0.082914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Tower_01.fbx
+  artifactKey: Guid(262ce25addbd16a4ea185c1f6797cf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Tower_01.fbx using Guid(262ce25addbd16a4ea185c1f6797cf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b486ae7f0b2d787b2bca5a69cc56fc1c') in 0.012326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_RitualCircle_01.mat
+  artifactKey: Guid(d3042a8a5e619204e89c65372c11ec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_RitualCircle_01.mat using Guid(d3042a8a5e619204e89c65372c11ec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38407279241018a9f73fbef98cbe79b') in 0.029284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ArtilleryStrike_01.prefab
+  artifactKey: Guid(d8628f56ce986894a9be0c0fc92627bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ArtilleryStrike_01.prefab using Guid(d8628f56ce986894a9be0c0fc92627bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d240c7a5953a281ea420fef04423687') in 0.015577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ShardRock_Explosion_01.prefab
+  artifactKey: Guid(488f499c89c209944945fa5746dc175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ShardRock_Explosion_01.prefab using Guid(488f499c89c209944945fa5746dc175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f4fb7675c99414d9baf3a0b81f4af1') in 0.016876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Grenade_Flash_Toss_01.prefab
+  artifactKey: Guid(4a3beee2089f99e428874a74d68d4106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Grenade_Flash_Toss_01.prefab using Guid(4a3beee2089f99e428874a74d68d4106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e85cda55e7fcd9b581c20a8ebe64d3') in 0.015978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_RainbowGlow_02.prefab
+  artifactKey: Guid(4d6d0b6c98562024e8896ae6e3312f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_RainbowGlow_02.prefab using Guid(4d6d0b6c98562024e8896ae6e3312f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c17dca82e9675c21984bf613b05abc') in 0.013591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fireball_Shooting_01.prefab
+  artifactKey: Guid(9611df09c312972469be124a7e439716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fireball_Shooting_01.prefab using Guid(9611df09c312972469be124a7e439716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac87fb5c37d413c54a2037dc9d37337') in 0.013789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fairy_01.prefab
+  artifactKey: Guid(4baff87aa850bb94fbaeecfbaaaa1ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fairy_01.prefab using Guid(4baff87aa850bb94fbaeecfbaaaa1ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ec7e759aad2e4e1eebec5b1e501408') in 0.010574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Healthcube_01.fbx
+  artifactKey: Guid(6d5a0bc0860313841bc19d04b364d8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Healthcube_01.fbx using Guid(6d5a0bc0860313841bc19d04b364d8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0958125784e8f741f5c87561fec8d4') in 0.012102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Crystal_03.fbx
+  artifactKey: Guid(a2514e414ecf10a4e81bf67ca9f17722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Crystal_03.fbx using Guid(a2514e414ecf10a4e81bf67ca9f17722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c054c54543eea934893bef9d8fda4d') in 0.012342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Money_Notes_Shooting_01.prefab
+  artifactKey: Guid(1758f69aaac8d254a8fb57561cf6a536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Money_Notes_Shooting_01.prefab using Guid(1758f69aaac8d254a8fb57561cf6a536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d505853639108b6907b5554d8e1e5e') in 0.012671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Cylinder_01.fbx
+  artifactKey: Guid(372ae975cf6643444ae1c6ef9cbd981f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Cylinder_01.fbx using Guid(372ae975cf6643444ae1c6ef9cbd981f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd9f5c5add26bc86897ed7ce4ab9423') in 0.012271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_Rock_01.fbx
+  artifactKey: Guid(047fc1cd24ff3e945872c4f22e03d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_Rock_01.fbx using Guid(047fc1cd24ff3e945872c4f22e03d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6fdbfb9ac322aeb889f162c2aba683') in 0.011367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Direction_Arrows_02.prefab
+  artifactKey: Guid(cd89c56a1fcd0534a946f51a4cf9e51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Direction_Arrows_02.prefab using Guid(cd89c56a1fcd0534a946f51a4cf9e51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6f7501518db115c42c039739e10612') in 0.011204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fire_Huge_01.prefab
+  artifactKey: Guid(c54fceec5f7d4b44f9dc266a7e5f1e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fire_Huge_01.prefab using Guid(c54fceec5f7d4b44f9dc266a7e5f1e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b14ad2a6f4ad4af621ca5098753558d') in 0.011965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Swirl_02.prefab
+  artifactKey: Guid(9efac3ef75f3a054f93c32ffa91c05e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Swirl_02.prefab using Guid(9efac3ef75f3a054f93c32ffa91c05e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c120fc3d4b1e7099fb837906b3687e') in 0.012529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_LightningStrike_01.prefab
+  artifactKey: Guid(6108438f5e38d0b4b8fed06af6b74254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_LightningStrike_01.prefab using Guid(6108438f5e38d0b4b8fed06af6b74254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0349026371ffaeaa78fa0db7d95ddefd') in 0.013752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round 1.mat
+  artifactKey: Guid(931f6cb81f32ff8418b581d210c8dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round 1.mat using Guid(931f6cb81f32ff8418b581d210c8dd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5a10333c194eff6edf59f28385fe73') in 0.009978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Skull_02.fbx
+  artifactKey: Guid(796fd1b9bc60bbc4fa8f9cb6dccbb7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Skull_02.fbx using Guid(796fd1b9bc60bbc4fa8f9cb6dccbb7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a227ee62e0d2b402a26573e7c49ca642') in 0.012374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Ritual_Circle_01.prefab
+  artifactKey: Guid(41cbce41e6100bd4795fcf7202869c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Ritual_Circle_01.prefab using Guid(41cbce41e6100bd4795fcf7202869c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f2c0e4d071ec17e27b1d8184d9b4b9') in 0.012539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Impact_Large_01.prefab
+  artifactKey: Guid(101d62f0a3e4fef4eab61adb79c845df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Impact_Large_01.prefab using Guid(101d62f0a3e4fef4eab61adb79c845df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34b171ad7dae410e73dc7c74fea79ae') in 0.011158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Fumes_04.png
+  artifactKey: Guid(2eb84df899ad7fc4aa3b987e587d5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Fumes_04.png using Guid(2eb84df899ad7fc4aa3b987e587d5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d0f9121a0a9a6fd5efdf18e5ef5ec2') in 0.009535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Materials/Materials/pCube1Mat.mat
+  artifactKey: Guid(9c1557ea697f37f4888c5c8fc6f2fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/Materials/pCube1Mat.mat using Guid(9c1557ea697f37f4888c5c8fc6f2fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98e9ae016a379b543cfd7608f2a948c') in 0.010620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Portal_01.mat
+  artifactKey: Guid(63fe091b9b93bc24fb33ff7e92799835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Portal_01.mat using Guid(63fe091b9b93bc24fb33ff7e92799835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587b56ea55424ea37ed83294169169d8') in 0.010789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Electricity_02.prefab
+  artifactKey: Guid(a22bb852cf433044e8752ea7fe62f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Electricity_02.prefab using Guid(a22bb852cf433044e8752ea7fe62f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6dc0543a39840b56f0592a7465d85f6') in 0.010835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Material.mat
+  artifactKey: Guid(49fa84335db088c4dafac40a4d0743db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Material.mat using Guid(49fa84335db088c4dafac40a4d0743db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874a5b90ac14a12c21558407f38658b9') in 0.009254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Trail_Exhaust_01.prefab
+  artifactKey: Guid(f6d201bc8595a5b4f92f70df92d33aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Trail_Exhaust_01.prefab using Guid(f6d201bc8595a5b4f92f70df92d33aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783ad1987835c26a9cbd76bc352812c6') in 0.010549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Sparkle.mat
+  artifactKey: Guid(2372c82814ea2ed41aed3d611d81953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Sparkle.mat using Guid(2372c82814ea2ed41aed3d611d81953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2255c90230696a83308c5811ca66a7fd') in 0.009471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Grenade_Explosive_01.prefab
+  artifactKey: Guid(f171ac3dbb620c44e81cd88ddee1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Grenade_Explosive_01.prefab using Guid(f171ac3dbb620c44e81cd88ddee1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fc4e9720e84962c11db7ae5e385635') in 0.014509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Circle_Dark_01.png
+  artifactKey: Guid(913d37094a541b842b4f18f393f40ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Circle_Dark_01.png using Guid(913d37094a541b842b4f18f393f40ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4692ec680380045224f30131c01855ee') in 0.009525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Smoke_Mat_03.mat
+  artifactKey: Guid(33acf48390ff3dd49bee5f8de43d6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Smoke_Mat_03.mat using Guid(33acf48390ff3dd49bee5f8de43d6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c555afea431c915039319dbf53087e1') in 0.084534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_CannonShot_01.prefab
+  artifactKey: Guid(f72f0eb4a0fb5934fab797add8da8711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_CannonShot_01.prefab using Guid(f72f0eb4a0fb5934fab797add8da8711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c515f9155b658ae0eba7ae1b40c294fb') in 0.012802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Default_01.mat
+  artifactKey: Guid(417cbbf4755e392408e489080c4ede09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Default_01.mat using Guid(417cbbf4755e392408e489080c4ede09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a6bbce60dd8c26c9616deb85db8990') in 0.009553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Sprint_01.prefab
+  artifactKey: Guid(414f21f548178584899720a59520163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Sprint_01.prefab using Guid(414f21f548178584899720a59520163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccdc8b8b4b157b6f56062fc26ddca69') in 0.012461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_BulletTrail.png
+  artifactKey: Guid(03f9cd753cdaef945b4cefdcda283901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_BulletTrail.png using Guid(03f9cd753cdaef945b4cefdcda283901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1f61888a9b5729cd2b56fdd6795320') in 0.011166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Money_Coins_Shooting_01.prefab
+  artifactKey: Guid(b9f6b1c04f48db145a5f24cd10fb43ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Money_Coins_Shooting_01.prefab using Guid(b9f6b1c04f48db145a5f24cd10fb43ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b5e4b8b84dd64548c51a2bba6bfe1f') in 0.012107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ShardMagic_Shooting_01.prefab
+  artifactKey: Guid(729014ca67ac73040acae7a3ae78a34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ShardMagic_Shooting_01.prefab using Guid(729014ca67ac73040acae7a3ae78a34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8647516c661a484869dfb1891f3e3567') in 0.018971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Fumes_01.mat
+  artifactKey: Guid(4c5f13e6a6061214697a61fa94a0e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Fumes_01.mat using Guid(4c5f13e6a6061214697a61fa94a0e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5faccedc35ce5cacaaa206065f58567b') in 0.010067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fireflies_01.prefab
+  artifactKey: Guid(3d038c573e8a269499c7c275a1df51bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fireflies_01.prefab using Guid(3d038c573e8a269499c7c275a1df51bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8ef3fb74a38dc8dca6bb7368412d4c') in 0.011140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Money_Notes_Burst_01.prefab
+  artifactKey: Guid(fb2dbd343895b6c47888986bf91da33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Money_Notes_Burst_01.prefab using Guid(fb2dbd343895b6c47888986bf91da33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b377e562f985594cea06f89b8ff067') in 0.012371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_PowerBeam_01.prefab
+  artifactKey: Guid(7f38f60a173ec7e4cacc9b7af686d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_PowerBeam_01.prefab using Guid(7f38f60a173ec7e4cacc9b7af686d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36198c9e9bdf116ef88126e8821c7bbc') in 0.017278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Wind_Hard_01.prefab
+  artifactKey: Guid(256d3a594db97cf4396c421d793e1e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Wind_Hard_01.prefab using Guid(256d3a594db97cf4396c421d793e1e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf7a13ee5b57bb4358da88270f61fab') in 0.011086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Smoke_Black_01.prefab
+  artifactKey: Guid(192584c2ae3aee840bbbccfb7b034c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Smoke_Black_01.prefab using Guid(192584c2ae3aee840bbbccfb7b034c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43131aa2311d9c12a1219fcbb597d93') in 0.011473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Missile_01.prefab
+  artifactKey: Guid(5599f31b19e20c94ca2378f95f7646b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Missile_01.prefab using Guid(5599f31b19e20c94ca2378f95f7646b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4053568ebf4c867eced9660149ec1c2') in 0.015922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Fumes_02.mat
+  artifactKey: Guid(10a8ddd34c118804ea1bfbcf936e1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Fumes_02.mat using Guid(10a8ddd34c118804ea1bfbcf936e1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd95c76cb56325dabfbe15f835f8feb') in 0.011409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fireball_01.prefab
+  artifactKey: Guid(4b21d5ab091be5a46ad6e87699fab62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fireball_01.prefab using Guid(4b21d5ab091be5a46ad6e87699fab62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2313bc6e3093582c71c900377624c2b7') in 0.013024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Hexagon.mat
+  artifactKey: Guid(3e40f2795430a314da835c0b22a031c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Hexagon.mat using Guid(3e40f2795430a314da835c0b22a031c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba09263abea61e3ef07d8179a72437b7') in 0.011050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Impact_Stone_01.prefab
+  artifactKey: Guid(9fe1ddc0da27cb44ebeeb8c2befa68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Impact_Stone_01.prefab using Guid(9fe1ddc0da27cb44ebeeb8c2befa68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029e7938db6e8241b9e4642e3c607e14') in 0.011415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Swirl_03.prefab
+  artifactKey: Guid(2cfd9cf3b1dc4ad489f9d2a7574d2463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Swirl_03.prefab using Guid(2cfd9cf3b1dc4ad489f9d2a7574d2463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad03d9aa70482557e0e74abe7a3fa07') in 0.012600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_RainbowSparkle_01.prefab
+  artifactKey: Guid(0058d5de97db72045a6e7a53526e4937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_RainbowSparkle_01.prefab using Guid(0058d5de97db72045a6e7a53526e4937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e9c9340e2d1a7171909d45345b18fc') in 0.012765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_PowerDraw_Shoot_01.prefab
+  artifactKey: Guid(2db3be94a895fa54c8274114cabef5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_PowerDraw_Shoot_01.prefab using Guid(2db3be94a895fa54c8274114cabef5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e4d825d7bd675a00995b80b0ad9dd5') in 0.018921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_WoodChip_01.fbx
+  artifactKey: Guid(8f7555f2a39ae4d47acc3d1fde3b0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_WoodChip_01.fbx using Guid(8f7555f2a39ae4d47acc3d1fde3b0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037ed4f1d7131d5615f874fbd048c727') in 0.013430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Heavy_Single_Tracers_01.prefab
+  artifactKey: Guid(ab32929843ea40d48ae16ecaa85f794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Heavy_Single_Tracers_01.prefab using Guid(ab32929843ea40d48ae16ecaa85f794a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40f6d1f25970dd9fb7f976a991a7b4c') in 0.012354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Impact_Water_Ripple_01.prefab
+  artifactKey: Guid(55c7caedf64d935419e00dac831d338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Impact_Water_Ripple_01.prefab using Guid(55c7caedf64d935419e00dac831d338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96da087bc65eab0067426caf39464679') in 0.012093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Confetti_01.prefab
+  artifactKey: Guid(4171bb92c5c591848b14be1db6f3efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Confetti_01.prefab using Guid(4171bb92c5c591848b14be1db6f3efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5866031ce37f4094c02524f8acd7dbb0') in 0.011776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_VertexLitBlended_Dark.mat
+  artifactKey: Guid(285b0791008c39844936e10062f85a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_VertexLitBlended_Dark.mat using Guid(285b0791008c39844936e10062f85a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a2f6cfd5ab4788c52fe6c92d3df59b') in 0.009114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Healing_Cirle_02.prefab
+  artifactKey: Guid(b6ac78dbb6751514392e2f44f82cc21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Healing_Cirle_02.prefab using Guid(b6ac78dbb6751514392e2f44f82cc21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d48728ef8eb5d22da89c365eff9872d') in 0.016495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ArtilleryShell_01.prefab
+  artifactKey: Guid(d60e1bbe20a224f47955cf3a78063800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ArtilleryShell_01.prefab using Guid(d60e1bbe20a224f47955cf3a78063800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a47c716efec26a1a3444203519fb0d9') in 0.015045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_LightRayRound_01.prefab
+  artifactKey: Guid(b020fb5c0d87f9a4c938bbc488714422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_LightRayRound_01.prefab using Guid(b020fb5c0d87f9a4c938bbc488714422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907ea322e54123cdc02d25996563d284') in 0.031510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Small_01.prefab
+  artifactKey: Guid(318a4c64f1fd12a43829eaf9351e7208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Small_01.prefab using Guid(318a4c64f1fd12a43829eaf9351e7208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137347be31e2830605d6568a2296ac00') in 0.012471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Leaves_Green_01.prefab
+  artifactKey: Guid(2412ff0fd2861c24898a16434345f6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Leaves_Green_01.prefab using Guid(2412ff0fd2861c24898a16434345f6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9f9c70868b7bd1c59fd67e11ec11dc') in 0.011363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_SemiCircle.png
+  artifactKey: Guid(f07e4b81cfc00d24e88a4b58da56db3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_SemiCircle.png using Guid(f07e4b81cfc00d24e88a4b58da56db3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e645b83b34fba849e8316a9233a858d') in 0.010230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Flies.mat
+  artifactKey: Guid(2ebe5f4397ab6f540a440c1b54e797bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Flies.mat using Guid(2ebe5f4397ab6f540a440c1b54e797bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8648f0a42a4317ed1752cfccab11e86') in 0.010342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Shell.mat
+  artifactKey: Guid(70dcf2a0afa97b444aa4a54fe4ac2fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Shell.mat using Guid(70dcf2a0afa97b444aa4a54fe4ac2fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cf3e27cc32b7fe74d95196b9df390e') in 0.010564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Sparkle_Orbit_02.prefab
+  artifactKey: Guid(8e4cbc8e0818db845af7dbcd20fe4ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Sparkle_Orbit_02.prefab using Guid(8e4cbc8e0818db845af7dbcd20fe4ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ec7ad51629146f44f10f7bb7d058b1') in 0.011645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_PowerDraw_01.prefab
+  artifactKey: Guid(706333c6431ba8c4ea48f7fe578e3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_PowerDraw_01.prefab using Guid(706333c6431ba8c4ea48f7fe578e3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdef830e93fcd535eadb7b1b85e53ef') in 0.011120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_01.prefab
+  artifactKey: Guid(059c6bc0c88d9e44c98a815958888e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_01.prefab using Guid(059c6bc0c88d9e44c98a815958888e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0940bad38b3362b46d7b0f2fcef7bd3') in 0.011685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Ring_02.png
+  artifactKey: Guid(d22dd282ce7c3874d954fa2e7893991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Ring_02.png using Guid(d22dd282ce7c3874d954fa2e7893991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb91c03329ffcbe8bf556de75e2ba431') in 0.009162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Swipe_01.png
+  artifactKey: Guid(ce1c15ae60b1d1147a4c121b6c97d6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Swipe_01.png using Guid(ce1c15ae60b1d1147a4c121b6c97d6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7758ac9ff9051d3b915647a23f422f') in 0.009395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Crystal_01.fbx
+  artifactKey: Guid(9115d2cb5328f3344829360e8791a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Crystal_01.fbx using Guid(9115d2cb5328f3344829360e8791a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d54e48cc7d47b2f6cee754c4424738') in 0.011739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Spark_01.fbx
+  artifactKey: Guid(f870a2bb43691584296e16a56b98920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Spark_01.fbx using Guid(f870a2bb43691584296e16a56b98920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1368d07c0a3307ba89087561e71efd1') in 0.011932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Sphere_Spikes_01.fbx
+  artifactKey: Guid(26e5fa40fa447fd429607f152a8eba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Sphere_Spikes_01.fbx using Guid(26e5fa40fa447fd429607f152a8eba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5546375f9d3303bb00642e26384995b2') in 0.012246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Heal_02.prefab
+  artifactKey: Guid(da7875cab77480d49972b42ca872af40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Heal_02.prefab using Guid(da7875cab77480d49972b42ca872af40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2175c1943cd4c0be2cc05da75fbb400') in 0.013068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_SunBeam_Large_01.prefab
+  artifactKey: Guid(1bf8340f6ae2fd444b5a6f5c0a40be08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_SunBeam_Large_01.prefab using Guid(1bf8340f6ae2fd444b5a6f5c0a40be08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac6dfb64ccdac1a03562985ff6e9c01') in 0.010828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Blizzard_Snow_01.prefab
+  artifactKey: Guid(b216287c7b0df214682d7ed3030d9e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Blizzard_Snow_01.prefab using Guid(b216287c7b0df214682d7ed3030d9e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e7c2a4b1e6d3ad7b064520e044c16e') in 0.011127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fireworks_Group_01.prefab
+  artifactKey: Guid(07aa037621e4eba478ebfb04ecfbf0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fireworks_Group_01.prefab using Guid(07aa037621e4eba478ebfb04ecfbf0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5876da9b3da1b2b994500edc6bd485') in 0.015470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Shard_Rock_04.fbx
+  artifactKey: Guid(3951b21bc57173e47be7774cab60d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Shard_Rock_04.fbx using Guid(3951b21bc57173e47be7774cab60d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e289f9869f0f39f7f99382074375d9e') in 0.012403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Gunshot_01.prefab
+  artifactKey: Guid(b46264f9e12caed4cb53e7c2ad64aa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Gunshot_01.prefab using Guid(b46264f9e12caed4cb53e7c2ad64aa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799f844f2003509361e4f1fd27a76154') in 0.011821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Arrow_02.fbx
+  artifactKey: Guid(7458e01912c97e64fa0518ea6abb8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Arrow_02.fbx using Guid(7458e01912c97e64fa0518ea6abb8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9edb41cb203cf7f1e76608c2ddb9eb4') in 0.012738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_LightRayRound 1.fbx
+  artifactKey: Guid(0110c4e8145949244a8c41db8957bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_LightRayRound 1.fbx using Guid(0110c4e8145949244a8c41db8957bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3572b0d17a7bf0cf39288d2fedf1c137') in 0.016991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Shotgun_01.prefab
+  artifactKey: Guid(0e56aef02a6fcc6408400ea7c75e13a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Shotgun_01.prefab using Guid(0e56aef02a6fcc6408400ea7c75e13a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7272e5b79336275ca2208f954cc1e52') in 0.010982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Smoke_Black_Large_01.prefab
+  artifactKey: Guid(832e34039f53c4a498b7f4d73a7d467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Smoke_Black_Large_01.prefab using Guid(832e34039f53c4a498b7f4d73a7d467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140dd20d3d7ea72bc04ba082d20aab7e') in 0.011230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Wind_01.prefab
+  artifactKey: Guid(60d9c53605152d3459e9db61f5d3bad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Wind_01.prefab using Guid(60d9c53605152d3459e9db61f5d3bad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b2e16f5c321e29485558591d8f0b73') in 0.010945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_Particle_Smoke_01.fbx
+  artifactKey: Guid(41e18b74cd8bd984b94d58c040bb66da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_Particle_Smoke_01.fbx using Guid(41e18b74cd8bd984b94d58c040bb66da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f97d5ace0aad43eb0f9b3c70261fa4') in 0.012833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Steam_01.prefab
+  artifactKey: Guid(1079997728c9a2d40864e5dd4cbacfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Steam_01.prefab using Guid(1079997728c9a2d40864e5dd4cbacfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df956b3987694547677d3c69f1d6662e') in 0.010243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Bubbles_Float_01.prefab
+  artifactKey: Guid(cd8a919d250921a47b55356e13bc37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Bubbles_Float_01.prefab using Guid(cd8a919d250921a47b55356e13bc37f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198c3cfc69e891af55bbc36856f54620') in 0.010171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_RainbowGlow_01.prefab
+  artifactKey: Guid(bb6904452295d0d4ba1ce77f66662d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_RainbowGlow_01.prefab using Guid(bb6904452295d0d4ba1ce77f66662d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82aa5552d9be0aa0a7f4a6141ddb3a8') in 0.013921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Trail_Fire_01.prefab
+  artifactKey: Guid(673011a12ec748844a398a9504a957a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Trail_Fire_01.prefab using Guid(673011a12ec748844a398a9504a957a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f52b2c02d9f5db4d54f6a5da9d2842') in 0.011745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Smoke_Trail_Large_01.prefab
+  artifactKey: Guid(ab15732f9da12cf42a66e3034d472663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Smoke_Trail_Large_01.prefab using Guid(ab15732f9da12cf42a66e3034d472663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b20e97d0155e283c065074f5e98887') in 0.010782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Jump_01.prefab
+  artifactKey: Guid(05f7c156786bd024e8da3bb1a4b8aa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Jump_01.prefab using Guid(05f7c156786bd024e8da3bb1a4b8aa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cf8553539230786e02072d15e29880') in 0.009772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Rain_Collision_01.prefab
+  artifactKey: Guid(cff4a9e403d4b9c4884a361d209cbd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Rain_Collision_01.prefab using Guid(cff4a9e403d4b9c4884a361d209cbd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4628b16a809be12a6c6b460c28d335d3') in 0.011882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Sphere_01.fbx
+  artifactKey: Guid(319d9b31292d2e04f88a3599f04b7786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Sphere_01.fbx using Guid(319d9b31292d2e04f88a3599f04b7786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8c8adee6772170bb7fe28a9c3e4826') in 0.012712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Flame_Booster_01.prefab
+  artifactKey: Guid(eab0ff9626d52cf45b04b5d03faecc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Flame_Booster_01.prefab using Guid(eab0ff9626d52cf45b04b5d03faecc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f22f5f429cc6d35b2fc87b882336141') in 0.012252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Grenade_Flash_01.prefab
+  artifactKey: Guid(2e0d5536e42d3aa48b6e363997b6b9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Grenade_Flash_01.prefab using Guid(2e0d5536e42d3aa48b6e363997b6b9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772952bbdabdc8c27c97a388d3f00449') in 0.012304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Swipe_02.mat
+  artifactKey: Guid(413cbb0543875484fb2ad3f1d0a537de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Swipe_02.mat using Guid(413cbb0543875484fb2ad3f1d0a537de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa140bb177a1a13508cc9096ac6e4c1') in 0.010823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Rain_01.prefab
+  artifactKey: Guid(d976a4a07ac6f35448b5fd44e2c07e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Rain_01.prefab using Guid(d976a4a07ac6f35448b5fd44e2c07e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4513b9e33f25290ddf1dcf653da0faf2') in 0.010516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Circle_01.png
+  artifactKey: Guid(7cc0b541520b0734c80ea6934a192675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Circle_01.png using Guid(7cc0b541520b0734c80ea6934a192675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1e27494ce0ee57ce76184eaf34afc3') in 0.009306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Bubble_01.mat
+  artifactKey: Guid(43e9d91ac8fd6f84f88ed89971c20f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Bubble_01.mat using Guid(43e9d91ac8fd6f84f88ed89971c20f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0113bfc7a5c8e4459a470175cf3fa7') in 0.009864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Explosion_Large_Dark_01.prefab
+  artifactKey: Guid(4cf45cdce36e66e4a93614abb5ae7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Explosion_Large_Dark_01.prefab using Guid(4cf45cdce36e66e4a93614abb5ae7821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54559bb03ed718377c6d97efb360bfd2') in 0.013062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Lightning.mat
+  artifactKey: Guid(f3491b5edbcb43640a86e7ff9cc63d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Lightning.mat using Guid(f3491b5edbcb43640a86e7ff9cc63d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a3c7ace41a7aa6218fc36514645f99') in 0.009476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Jump_Up_01.prefab
+  artifactKey: Guid(f81ea73a47d926143906b9d543948dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Jump_Up_01.prefab using Guid(f81ea73a47d926143906b9d543948dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522c8bf941972905129a790e315a1765') in 0.010868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_VertexLitBlended_Light.mat
+  artifactKey: Guid(4bd4855edb749174180df19dc61807a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_VertexLitBlended_Light.mat using Guid(4bd4855edb749174180df19dc61807a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc67a687c1501f42696b9970e4d9a6e') in 0.009530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_FlameThrower_01.prefab
+  artifactKey: Guid(d9c1fac1f620ebd4f9e47ef7b9ca6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_FlameThrower_01.prefab using Guid(d9c1fac1f620ebd4f9e47ef7b9ca6bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce453215e7dd632607f76828d00fdd0') in 0.013262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Dust.mat
+  artifactKey: Guid(cd97a4f0bfba00a46a4a29156f2a23bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Dust.mat using Guid(cd97a4f0bfba00a46a4a29156f2a23bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3467d36098794f0f319b4a1c755e9e9b') in 0.009292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Swirl_01.prefab
+  artifactKey: Guid(3ccd54180d4b3e54eaf3027dcaf14742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Swirl_01.prefab using Guid(3ccd54180d4b3e54eaf3027dcaf14742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22faa1c86d295d5a59f6011ab437d384') in 0.010862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Dark.mat
+  artifactKey: Guid(964f6345d4feb0347958244fe3c32cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Dark.mat using Guid(964f6345d4feb0347958244fe3c32cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcc922a4764cdec42ac6fd960272100') in 0.071093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Blood.mat
+  artifactKey: Guid(9efedd2a02a24ac479e285d244f6b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Blood.mat using Guid(9efedd2a02a24ac479e285d244f6b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836765179d9f4a8236dce7437455be5f') in 0.009636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticles_Material_01_C.mat
+  artifactKey: Guid(4f2936f284f9b574d8a56243f10d7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticles_Material_01_C.mat using Guid(4f2936f284f9b574d8a56243f10d7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e98788af6e49cf8347a51d09201312') in 0.010935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Grenade_03.fbx
+  artifactKey: Guid(72289dbe45f1e34419382fa20b9ad0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Grenade_03.fbx using Guid(72289dbe45f1e34419382fa20b9ad0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd9556ec2fdba39d529e83c5248bb7a') in 0.015082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Heavy_Repeating_Tracers_Impact_01.prefab
+  artifactKey: Guid(c0507a544f1ee7e4caa7785ef90ff92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Heavy_Repeating_Tracers_Impact_01.prefab using Guid(c0507a544f1ee7e4caa7785ef90ff92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd887dd7213df9a01b0dbd72fe656db2a') in 0.019730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Money_Coins_Burst_01.prefab
+  artifactKey: Guid(0796b331004a84744a609063dc845137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Money_Coins_Burst_01.prefab using Guid(0796b331004a84744a609063dc845137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba32a035b22f88085b79dc158f1c881') in 0.018675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Money_Note_01.fbx
+  artifactKey: Guid(3798343052282a14da592c41bfc00849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Money_Note_01.fbx using Guid(3798343052282a14da592c41bfc00849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adf737acb224061ed6118967459c099') in 0.016844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Vine_02.fbx
+  artifactKey: Guid(5c3970b909d28bc44862dc5b826d0a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Vine_02.fbx using Guid(5c3970b909d28bc44862dc5b826d0a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296ab6ba736def7088f438e24dd0b36f') in 0.017397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Confetti_Falling_01.prefab
+  artifactKey: Guid(19c065b476ca9a24e839e181a781c36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Confetti_Falling_01.prefab using Guid(19c065b476ca9a24e839e181a781c36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f6430b105066e109cafed1c68d0ef7') in 0.014337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Soft_Spot 1.mat
+  artifactKey: Guid(ada0702ac52956f4ba6ea382af4146b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Soft_Spot 1.mat using Guid(ada0702ac52956f4ba6ea382af4146b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13465d248a5576dfa3ea819f57f3a1bc') in 0.012729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Grenade_Smoke_01.prefab
+  artifactKey: Guid(cc606b05b54463b41bd3f1744812102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Grenade_Smoke_01.prefab using Guid(cc606b05b54463b41bd3f1744812102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f899a4b30b61d1b25a83973643143f89') in 0.012941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_WaterDrip_01.prefab
+  artifactKey: Guid(68fa1af28487ba844b3aeb5cf1381b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_WaterDrip_01.prefab using Guid(68fa1af28487ba844b3aeb5cf1381b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dedf91d6156e3be6c7affe5dd2c2c4f') in 0.012488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Crystal_04.fbx
+  artifactKey: Guid(abe89b42422171342b6d1c35662f93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Crystal_04.fbx using Guid(abe89b42422171342b6d1c35662f93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c61c41b68792a7e97c550a21c826a27') in 0.012731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_SwordSlash_01.prefab
+  artifactKey: Guid(1f8b293f4d55bbc418cffe1b7505d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_SwordSlash_01.prefab using Guid(1f8b293f4d55bbc418cffe1b7505d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598c3424dde24219c870f6bf1a919ef3') in 0.014090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Gunshot_BarrelSmoke_01.prefab
+  artifactKey: Guid(ba03473dcbf31a44cb8a407076228f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Gunshot_BarrelSmoke_01.prefab using Guid(ba03473dcbf31a44cb8a407076228f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17d9724097ea5e4aa3afce299ca6b1a') in 0.011157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Empty.mat
+  artifactKey: Guid(0d02cd2cee6d0c548b6d6ee74d16e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Empty.mat using Guid(0d02cd2cee6d0c548b6d6ee74d16e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e627d53681e9dbbca86f644a64a92b') in 0.009985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Footstep_01.prefab
+  artifactKey: Guid(2397083e876e5b1408fcc1333f50c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Footstep_01.prefab using Guid(2397083e876e5b1408fcc1333f50c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2ce5de2f8415aee0adb5b5f750f749') in 0.010797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Steam_02.prefab
+  artifactKey: Guid(14777e4d41f0de84cafca6d871768538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Steam_02.prefab using Guid(14777e4d41f0de84cafca6d871768538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0772ea403f4502407f0370662426bc3b') in 0.011021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Grenade_Smoke_Toss_01.prefab
+  artifactKey: Guid(fbc01fe7e7e1c6e439fe2de75944c8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Grenade_Smoke_Toss_01.prefab using Guid(fbc01fe7e7e1c6e439fe2de75944c8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42d414122da2e9d985d3cc658438be6') in 0.013501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Sparkle.png
+  artifactKey: Guid(3ccce67bd48bfcd459a2ef0393fdf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Sparkle.png using Guid(3ccce67bd48bfcd459a2ef0393fdf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2da4db3de34cf296fdac9eaea259dfd') in 0.009549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Impact_Small_01.prefab
+  artifactKey: Guid(289ba3245c9c98c42aeb93d5f45a2248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Impact_Small_01.prefab using Guid(289ba3245c9c98c42aeb93d5f45a2248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe2d919095163d25bdc8b526543f9e3') in 0.031333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Impact_Wood_01.prefab
+  artifactKey: Guid(2b28f2fdc5a65964f96ea4d2b9d6ca63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Impact_Wood_01.prefab using Guid(2b28f2fdc5a65964f96ea4d2b9d6ca63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f424eb3bf99c70e7bfabf96df29cc49c') in 0.012741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Rainbow_FX.mat
+  artifactKey: Guid(11213bb280baa0a46871c22c5a1c21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Rainbow_FX.mat using Guid(11213bb280baa0a46871c22c5a1c21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77b44195ec2d04ceebdb6dca674cb0f') in 0.010158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_StarStunned_01.prefab
+  artifactKey: Guid(e35f4911d07c78949bd6fcee2e707765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_StarStunned_01.prefab using Guid(e35f4911d07c78949bd6fcee2e707765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27ab2b5e1ab95922e213cbe8c4f178e') in 0.011714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Cone_02.fbx
+  artifactKey: Guid(9dc298289ae195f4aab2ff40e02a219e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Cone_02.fbx using Guid(9dc298289ae195f4aab2ff40e02a219e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e71946f3e88cfad8333ef5da89876f0') in 0.012114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Sphere.fbx
+  artifactKey: Guid(219de587148d8bb41a8e255859dafe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Sphere.fbx using Guid(219de587148d8bb41a8e255859dafe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2bee38243b6d459a8bd6b40ac7e64f') in 0.013042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fireworks_Medium_Blue_01.prefab
+  artifactKey: Guid(b7b829cd4d996b54ab15cbdc5de62a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fireworks_Medium_Blue_01.prefab using Guid(b7b829cd4d996b54ab15cbdc5de62a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f960ee6c83fd238f3d22d07d3b94c7') in 0.013721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Money_Notes_01.prefab
+  artifactKey: Guid(aa8bfed7e0410cf4696a3a39e2a1476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Money_Notes_01.prefab using Guid(aa8bfed7e0410cf4696a3a39e2a1476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae8006c1aeb42119c6c37deb0973d9e') in 0.012345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_SunBeam_Particles.png
+  artifactKey: Guid(481a4bf8633827b4998c05ee4d9ff706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_SunBeam_Particles.png using Guid(481a4bf8633827b4998c05ee4d9ff706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22b7a6f4602ce9d108e562961ec116a') in 0.011295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Bubble.mat
+  artifactKey: Guid(331e0a6a99ab21f469cb8da0335a1312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Bubble.mat using Guid(331e0a6a99ab21f469cb8da0335a1312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19be6e6e381809dd1e3a839c8e9c03b') in 0.010032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_BloodSplat_01.prefab
+  artifactKey: Guid(4430919f14c50f84085d287cbcb2c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_BloodSplat_01.prefab using Guid(4430919f14c50f84085d287cbcb2c30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8def287bcda9eba5b09eb9e1d47e45d') in 0.010265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_GroundCrack_Blast_01.prefab
+  artifactKey: Guid(e7473d9620ab29341b98bf21b400e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_GroundCrack_Blast_01.prefab using Guid(e7473d9620ab29341b98bf21b400e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b330e7c9d2c071f715b1471f477e80bd') in 0.013650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Shell_01.png
+  artifactKey: Guid(2458a5e8960caf942b6e5fdee34bcdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Shell_01.png using Guid(2458a5e8960caf942b6e5fdee34bcdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2589a20bd974504e521e201005bd7076') in 0.010194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_GroundBreaking.mat
+  artifactKey: Guid(91fed33cc38deab4fbdb803e4f223fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_GroundBreaking.mat using Guid(91fed33cc38deab4fbdb803e4f223fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee6bf33bf55ea430887f35f8a10982a') in 0.011184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Portal_Single_Chipped.png
+  artifactKey: Guid(8a4b0e610ec24c44aaf3f934e7ab1392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Portal_Single_Chipped.png using Guid(8a4b0e610ec24c44aaf3f934e7ab1392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aafe3513a40fc5bc90eeb583d7d356b') in 0.010974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Default.mat
+  artifactKey: Guid(0c6ceb865a050c64683892d8aa073844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Default.mat using Guid(0c6ceb865a050c64683892d8aa073844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db97a00403b81d9e5c1a437ab74c11e0') in 0.012482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Repeating.prefab
+  artifactKey: Guid(9e08e7eea9b67324f9c545b241004b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Repeating.prefab using Guid(9e08e7eea9b67324f9c545b241004b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f0719ad118809716a538079b3bafe2') in 0.012272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_LazerBeam_01.prefab
+  artifactKey: Guid(69cd5bfdab535e54f87fbb6abae1a60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_LazerBeam_01.prefab using Guid(69cd5bfdab535e54f87fbb6abae1a60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342469b1f2987b238f2d96af37eee4a7') in 0.021748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Sparkles_Large_01.prefab
+  artifactKey: Guid(ad1aa46afd04a6942bb772aa5c443642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Sparkles_Large_01.prefab using Guid(ad1aa46afd04a6942bb772aa5c443642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9569969bf793c79cb800c2ae318d0aaa') in 0.011097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round_Dark.mat
+  artifactKey: Guid(819f0997b5a3d424bae37f31c7c24f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round_Dark.mat using Guid(819f0997b5a3d424bae37f31c7c24f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e278e86f698f926cf94d1a4a3c5ab3') in 0.011157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fireworks_01.prefab
+  artifactKey: Guid(f72b1f87653069d458bfd1263ffa4bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fireworks_01.prefab using Guid(f72b1f87653069d458bfd1263ffa4bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2333611734516d28266d59f55220a0') in 0.015919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_MagicBug_Trails_01.prefab
+  artifactKey: Guid(ca347b5eb5c024c4f83ba3d5069d1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_MagicBug_Trails_01.prefab using Guid(ca347b5eb5c024c4f83ba3d5069d1f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544b8cfab9440bfab18f2e77bac15bee') in 0.012335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Pickup_Boost_01.prefab
+  artifactKey: Guid(a5bc136c5e87fb14888b1af7d82802f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Pickup_Boost_01.prefab using Guid(a5bc136c5e87fb14888b1af7d82802f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb5e9c820f6d6728b0db6d4a894151e') in 0.015215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Dust_Blowing_Soft_01.prefab
+  artifactKey: Guid(4ae26ac0289f55948bb14bd1da6bf042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Dust_Blowing_Soft_01.prefab using Guid(4ae26ac0289f55948bb14bd1da6bf042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8136d42fcd78b722d7942df9928ab0') in 0.010694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Ring_01.mat
+  artifactKey: Guid(7eb97b17430c1564eb6b43614bfbf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Ring_01.mat using Guid(7eb97b17430c1564eb6b43614bfbf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a071d16c331aec597242a8c079e55be') in 0.010617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Impact_Water_01.prefab
+  artifactKey: Guid(5a3c9da90a2a4ea4692cee3096b94082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Impact_Water_01.prefab using Guid(5a3c9da90a2a4ea4692cee3096b94082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57323797c80f8fef5689e7c4423080d0') in 0.012550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Steam_03.prefab
+  artifactKey: Guid(4bd26695ba41ea2408ec9cbc9ef0c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Steam_03.prefab using Guid(4bd26695ba41ea2408ec9cbc9ef0c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe173d6dca8f01b4a879eeb40faeff1f') in 0.011284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Direction_Arrows_01.prefab
+  artifactKey: Guid(4aee0d2dc836414499493a1cc6872c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Direction_Arrows_01.prefab using Guid(4aee0d2dc836414499493a1cc6872c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba06bb72987a04e26fb2a380063a41b') in 0.011267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Emissive_Fire.mat
+  artifactKey: Guid(b0921f44478f0f048a2a6c682c1bfb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Emissive_Fire.mat using Guid(b0921f44478f0f048a2a6c682c1bfb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e6567f8ba0dbe6f8fbb8107dc0a504') in 0.079177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Ice_01.mat
+  artifactKey: Guid(d4b280f132511204e807baef7817683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Ice_01.mat using Guid(d4b280f132511204e807baef7817683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c61662fbd9cc919003c1b33032b773d') in 0.013733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Repeating_01.prefab
+  artifactKey: Guid(109ef343c4e69a640b663ceabaa718b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Repeating_01.prefab using Guid(109ef343c4e69a640b663ceabaa718b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3d543734f2c4ad3469fc295552d013') in 0.014309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Smoke_White_Small_01.prefab
+  artifactKey: Guid(76ef43c1bd544924b8aeb115e01163b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Smoke_White_Small_01.prefab using Guid(76ef43c1bd544924b8aeb115e01163b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3445e478a3fdbc2d51da7da00977912e') in 0.012305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Sphere_03.fbx
+  artifactKey: Guid(357d53aa062ebb04e8e5aaa195e1a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Sphere_03.fbx using Guid(357d53aa062ebb04e8e5aaa195e1a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318b91f10b6e65471ed2b93b3fa0a6fe') in 0.015210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_GoreChunk_03.fbx
+  artifactKey: Guid(f692cd1ae6eb2224f8a912dc75a9fe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_GoreChunk_03.fbx using Guid(f692cd1ae6eb2224f8a912dc75a9fe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de636494c1f6643f32324907bb077540') in 0.015393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cloud.mat
+  artifactKey: Guid(f9a98fdfbba337d43bb545e357c48b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cloud.mat using Guid(f9a98fdfbba337d43bb545e357c48b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7013e9254a82fa4e4948a206d298988d') in 0.010399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Swirl_Fast_01.prefab
+  artifactKey: Guid(e57dd934961ce0e4d9f17115bb382f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Swirl_Fast_01.prefab using Guid(e57dd934961ce0e4d9f17115bb382f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0b91224f9dad9a0bbbd7d610c667c9') in 0.013007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Repeating_Small_01.prefab
+  artifactKey: Guid(145319468195b02459b49eaea7e277cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Repeating_Small_01.prefab using Guid(145319468195b02459b49eaea7e277cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7af7a808438b13adb2b578bd1e8bd3f') in 0.014695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Wind.mat
+  artifactKey: Guid(34d1067f93566394e813f63c2f054f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Wind.mat using Guid(34d1067f93566394e813f63c2f054f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f276cb8aeb73574aad6fed19fc1f56') in 0.010737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_Flame_FX.fbx
+  artifactKey: Guid(860f45db46c9a3e4a9bc3a4d3c5dc882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_Flame_FX.fbx using Guid(860f45db46c9a3e4a9bc3a4d3c5dc882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fd46e14a0f27ec249aa866e9f63261') in 0.014451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_MagicBlast_02.prefab
+  artifactKey: Guid(72a652ab7835362499c9686288610212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_MagicBlast_02.prefab using Guid(72a652ab7835362499c9686288610212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8612467892ab62bace44d2145acf8a90') in 0.012600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Bubble_01.prefab
+  artifactKey: Guid(c15d2abbd967ac944a571134fa3755df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Bubble_01.prefab using Guid(c15d2abbd967ac944a571134fa3755df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f723e0c1844e473c957283791eaa5870') in 0.010602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Swipe_Grid.mat
+  artifactKey: Guid(292c23ebfcf66194caae3b5650a6e98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Swipe_Grid.mat using Guid(292c23ebfcf66194caae3b5650a6e98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d1e9ea0aabcc1e32c99c7a79d9ce6d') in 0.009618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round.mat
+  artifactKey: Guid(f55d44db4612b10438c11e63bc1ea9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round.mat using Guid(f55d44db4612b10438c11e63bc1ea9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a4d748ff29690e251d47170e23a1ef') in 0.008786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Star_Pivot.fbx
+  artifactKey: Guid(a95782c1aa2915647a6294f31ef1dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Star_Pivot.fbx using Guid(a95782c1aa2915647a6294f31ef1dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dbc0c574a3d5f2367f3e0e8436145e') in 0.011119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Rock_02.mat
+  artifactKey: Guid(c6f1ea5e8ec046f449aafa6978e4ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Rock_02.mat using Guid(c6f1ea5e8ec046f449aafa6978e4ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097656517f8ade5f7dd07c65b4befd79') in 0.010451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Explosion_01.prefab
+  artifactKey: Guid(65932b7368590234d8163da03c2055d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Explosion_01.prefab using Guid(65932b7368590234d8163da03c2055d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ca6488e1d6dd6dfebe29393bcdf895') in 0.011222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Portal_Thin_01.prefab
+  artifactKey: Guid(17d36ed57951c824fa6d4f4a785e96ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Portal_Thin_01.prefab using Guid(17d36ed57951c824fa6d4f4a785e96ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b040eb959e601a9fbf80514703c1f79') in 0.012252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticles_Material_01_B.mat
+  artifactKey: Guid(8488848242723b14e9895f302b43b949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticles_Material_01_B.mat using Guid(8488848242723b14e9895f302b43b949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1a7d8684bee977ad7047f25fea3d9f') in 0.010705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Pickup_Death_01.prefab
+  artifactKey: Guid(8678c14fe1597e04f94db4335ee21f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Pickup_Death_01.prefab using Guid(8678c14fe1597e04f94db4335ee21f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86db8e7adaa590baf3b9ad8f86cb3d6f') in 0.014534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Grenade_Explosive_Toss_01.prefab
+  artifactKey: Guid(d7638c40186e9cb42bf26b341bd488fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Grenade_Explosive_Toss_01.prefab using Guid(d7638c40186e9cb42bf26b341bd488fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bceb407fa47576cfe771cdd8294cbc2') in 0.017963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_GoreChunk_01.fbx
+  artifactKey: Guid(42d285dbfe3e3b64189e747d4e5ab2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_GoreChunk_01.fbx using Guid(42d285dbfe3e3b64189e747d4e5ab2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f00a8fe0a686ecaa42151bfc72ab14b') in 0.014281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ShardRock_Shooting_01.prefab
+  artifactKey: Guid(50dfd53c87d310849aa5df80ed721813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ShardRock_Shooting_01.prefab using Guid(50dfd53c87d310849aa5df80ed721813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa723ff19bce473ec666d527fd51498') in 0.021107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Additive_Soft.mat
+  artifactKey: Guid(f42a357a923c92f4b9818c765c8b2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Additive_Soft.mat using Guid(f42a357a923c92f4b9818c765c8b2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53755dcd4b2a803c4d7ad7c3bc2afe9c') in 0.010346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Wind_Soft_01.prefab
+  artifactKey: Guid(cb60cfe2258158041bac94bd339e3f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Wind_Soft_01.prefab using Guid(cb60cfe2258158041bac94bd339e3f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5548050e7b9d8fbed4beb527422095b4') in 0.012916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Nuke_01.prefab
+  artifactKey: Guid(06b9063795ca5b54aa31740b163001c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Nuke_01.prefab using Guid(06b9063795ca5b54aa31740b163001c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d1c9b9cd63d246b9976b2b748343fd') in 0.014712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ShardIce_Shooting_01.prefab
+  artifactKey: Guid(a977b50d367fe4d4d8f6c288bad7df24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ShardIce_Shooting_01.prefab using Guid(a977b50d367fe4d4d8f6c288bad7df24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf038859288e11b5d17119bcf5607e9') in 0.021096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Direction_Arrows_03.prefab
+  artifactKey: Guid(162d349d1974cff47b0c8fb20111891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Direction_Arrows_03.prefab using Guid(162d349d1974cff47b0c8fb20111891b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fe95df02e1e053089f1205327a2d54') in 0.011901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Explosion_Body_01.prefab
+  artifactKey: Guid(a1a36200a3c61b34b9abfaed1373f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Explosion_Body_01.prefab using Guid(a1a36200a3c61b34b9abfaed1373f4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cc7e7e607fa9e3f0220d832addb5cf') in 0.016328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ShardVine_Shooting_01.prefab
+  artifactKey: Guid(d67ed860424886e4db64e996b4d85493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ShardVine_Shooting_01.prefab using Guid(d67ed860424886e4db64e996b4d85493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b7bcfce4872ffca27c8fdf791eacc4') in 0.021095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_HalfCircle.png
+  artifactKey: Guid(ce52a7627f791234aa84f247915ff610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_HalfCircle.png using Guid(ce52a7627f791234aa84f247915ff610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbdcffa7687f3a3c53cfa5065c77647') in 0.008427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fire_Small_03.prefab
+  artifactKey: Guid(90bdb8398e186b34282d968564dfec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fire_Small_03.prefab using Guid(90bdb8398e186b34282d968564dfec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb4bd7128d15e74243bc85dbe7880b1') in 0.010289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Cylinder_02.fbx
+  artifactKey: Guid(241e478857fef114eac8f58872ef0104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Cylinder_02.fbx using Guid(241e478857fef114eac8f58872ef0104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21955b42e6af0154f8a42adba2c29c1e') in 0.011835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Sparkles_Trail_01.prefab
+  artifactKey: Guid(fed2327a00a9ead458966ca19d71a434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Sparkles_Trail_01.prefab using Guid(fed2327a00a9ead458966ca19d71a434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88bbb403fdb101031b6a10b8c7a438e') in 0.009905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_StarStunned_02.prefab
+  artifactKey: Guid(edf12e91890b8434eb8ea701f9bc40a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_StarStunned_02.prefab using Guid(edf12e91890b8434eb8ea701f9bc40a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77c845f9f711ffc974dbd44c3222892') in 0.010555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ShardVine_Explosion_01.prefab
+  artifactKey: Guid(66bdcc8522acf034180d42fc80952ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ShardVine_Explosion_01.prefab using Guid(66bdcc8522acf034180d42fc80952ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d4422544139206f3987e9d4f4e8a4c') in 0.018776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Soft_Spot.png
+  artifactKey: Guid(d5170007006368747b4faea8550619cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Soft_Spot.png using Guid(d5170007006368747b4faea8550619cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226f8428090dac024acf11abe78d7904') in 0.011290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Flies_01.prefab
+  artifactKey: Guid(014c95de16cbd4c4c97277dca595b01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Flies_01.prefab using Guid(014c95de16cbd4c4c97277dca595b01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13a1818119e86a42a5545a6fd6c89f1') in 0.012321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Arrow_01.fbx
+  artifactKey: Guid(6a52a887f336e794ba8205d3a77fb27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Arrow_01.fbx using Guid(6a52a887f336e794ba8205d3a77fb27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b230d7421a4f53835922945716a9ee2') in 0.012679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Shard_Rock_01.fbx
+  artifactKey: Guid(80d58589634d74c4db24453c22522574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Shard_Rock_01.fbx using Guid(80d58589634d74c4db24453c22522574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3b5e11bb6132fbf03757051f7fc918') in 0.012588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fire_Big_03.prefab
+  artifactKey: Guid(aafad909270f83046bc79c06fe30321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fire_Big_03.prefab using Guid(aafad909270f83046bc79c06fe30321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e897263714e533c340d69987db150615') in 0.015982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Pickup_Health_01.prefab
+  artifactKey: Guid(acc0fdf52f17a6140bd3484d66046ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Pickup_Health_01.prefab using Guid(acc0fdf52f17a6140bd3484d66046ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302f0ffae588325eff0816ba510fd6b6') in 0.017886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Heart_01.fbx
+  artifactKey: Guid(14c8c21ade1af6a49968dac473c756f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Heart_01.fbx using Guid(14c8c21ade1af6a49968dac473c756f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317b28e21630ddb35001beeb72f6f378') in 0.014114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_WaterRipple_01.prefab
+  artifactKey: Guid(06217819076285a498e3a32ae3c3eff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_WaterRipple_01.prefab using Guid(06217819076285a498e3a32ae3c3eff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51fc267c616a6f6168c80477fb1cb91') in 0.012985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Swipe_02.png
+  artifactKey: Guid(a9a7424a52149bb4b84da7a71341f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Swipe_02.png using Guid(a9a7424a52149bb4b84da7a71341f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a280d3d386fc31de46ff1a37c6fd7fb6') in 0.009916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Money_Coins_01.prefab
+  artifactKey: Guid(99f0252a0079f694aa521693558bdc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Money_Coins_01.prefab using Guid(99f0252a0079f694aa521693558bdc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351cc9a201d98bbbd8181a711cf74c4f') in 0.012544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_LightRayCube_01.prefab
+  artifactKey: Guid(7ffd6822b816c9b428b2295eb5d7fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_LightRayCube_01.prefab using Guid(7ffd6822b816c9b428b2295eb5d7fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f614cc86e80f113089af386d161ff6') in 0.013049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Lightning_02.png
+  artifactKey: Guid(b1351c11dea42f845af85e73da6579f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Lightning_02.png using Guid(b1351c11dea42f845af85e73da6579f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29f3d7681d65865807cae2a6d585641') in 0.009780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Healing_Cirle_01.prefab
+  artifactKey: Guid(1103bc5779fcc26419c248d4fd2f8586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Healing_Cirle_01.prefab using Guid(1103bc5779fcc26419c248d4fd2f8586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d74097fea296055be18f6b05eaca408') in 0.013994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Pickup_Question_01.prefab
+  artifactKey: Guid(c227dd14e3b49524e887fb34535503e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Pickup_Question_01.prefab using Guid(c227dd14e3b49524e887fb34535503e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf19d97803f71b3b897eff0d6b76da3e') in 0.016574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Trail_Debris_01.prefab
+  artifactKey: Guid(32880282445ce1e46b8159e9eb1d8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Trail_Debris_01.prefab using Guid(32880282445ce1e46b8159e9eb1d8a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cddc8dd47053ad514d7b528e5b979b') in 0.012893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Star.fbx
+  artifactKey: Guid(e85294d06423fe64c8ff30e832f26a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Star.fbx using Guid(e85294d06423fe64c8ff30e832f26a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82396e65bc48816b4debea6d7adbbcda') in 0.015938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Heavy_Repeating_01.prefab
+  artifactKey: Guid(1d637701e2c3c514ca904aaddb4cc7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Heavy_Repeating_01.prefab using Guid(1d637701e2c3c514ca904aaddb4cc7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2efacfc53528808ee86055058d88b70') in 0.011247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_LevelUp_01.prefab
+  artifactKey: Guid(c9eb15264aa6c4348b00d5b9b3daab2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_LevelUp_01.prefab using Guid(c9eb15264aa6c4348b00d5b9b3daab2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd2b1b2db94a6dee5f40c1e9f636abc') in 0.014397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Hexagon_01.prefab
+  artifactKey: Guid(ec5dead71a3be2046a4e57ab9fb113a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Hexagon_01.prefab using Guid(ec5dead71a3be2046a4e57ab9fb113a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da9fe5a3166e4443231460c1d73d293') in 0.011181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Wings_Grid.png
+  artifactKey: Guid(5f9e461b624488b4e8132701494f4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Wings_Grid.png using Guid(5f9e461b624488b4e8132701494f4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b69c623e3b61062617d36f9181851de') in 0.010366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Portal_Sphere_01.prefab
+  artifactKey: Guid(d92be02a90149e64d94ca3a2f20cd645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Portal_Sphere_01.prefab using Guid(d92be02a90149e64d94ca3a2f20cd645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bf0a308e7200b778a669673e09542d') in 0.012801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_LightRayCube 1.fbx
+  artifactKey: Guid(8297447ef77c7ab458f861bdd4a1885c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_LightRayCube 1.fbx using Guid(8297447ef77c7ab458f861bdd4a1885c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbaa10f23ae20f104378ce13fd913ee') in 0.016341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Sphere_Spikes_02.fbx
+  artifactKey: Guid(fd71f565f844ac04b92d939242ffed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Sphere_Spikes_02.fbx using Guid(fd71f565f844ac04b92d939242ffed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb38196d23507a467ef6281bc18141fe') in 0.011957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fire_Big_01.prefab
+  artifactKey: Guid(d5e400a2a0d155d4db9970614680534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fire_Big_01.prefab using Guid(d5e400a2a0d155d4db9970614680534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe57792635772c2e2e6642c5eb042746') in 0.014846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fog_Big_01.prefab
+  artifactKey: Guid(df0c133e93e92ea43ac4d6bec15faea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fog_Big_01.prefab using Guid(df0c133e93e92ea43ac4d6bec15faea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af297817b192b89347171bb7bd9db929') in 0.010422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Texture.mat
+  artifactKey: Guid(9e5dcdb827982cf4da4c2126c56d31ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Texture.mat using Guid(9e5dcdb827982cf4da4c2126c56d31ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0368bb28042b89a3decc019efd48696c') in 0.009988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Pickup_Ammo_01.prefab
+  artifactKey: Guid(c25375709a7d2e24ba8b622405bfc216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Pickup_Ammo_01.prefab using Guid(c25375709a7d2e24ba8b622405bfc216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f1f8ca31d5c899819bb3f847b9ad2e') in 0.015135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ShardMagic_Explosion_01.prefab
+  artifactKey: Guid(44a9ad63a554c5a41b6530bfc5c1faff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ShardMagic_Explosion_01.prefab using Guid(44a9ad63a554c5a41b6530bfc5c1faff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb4861761c8257e79fee7634b16e3ad') in 0.018929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Bubble.png
+  artifactKey: Guid(60847f2556c444a438e138e034f0ae83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Bubble.png using Guid(60847f2556c444a438e138e034f0ae83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffdca5144d5327986eb038576f1e14a') in 0.010335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Shard_Rock_Small_01.fbx
+  artifactKey: Guid(2e68dbddeabab79469c7e0ad08418c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Shard_Rock_Small_01.fbx using Guid(2e68dbddeabab79469c7e0ad08418c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71632c257fde41dbdbcb055e47943a8a') in 0.012833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_Rock_04.fbx
+  artifactKey: Guid(6d06fcdaf34f1494f95db8a06d252963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_Rock_04.fbx using Guid(6d06fcdaf34f1494f95db8a06d252963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d0e9b075845d08948e62ed0d9f26b1') in 0.014711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round_Multiply.mat
+  artifactKey: Guid(f9fa7768fbf327049884a40be125ebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round_Multiply.mat using Guid(f9fa7768fbf327049884a40be125ebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4d15432d4e32d4927b28224145bd72') in 0.011039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Sparks_01.prefab
+  artifactKey: Guid(9a905dc8b3b361840bb50c14f05926a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Sparks_01.prefab using Guid(9a905dc8b3b361840bb50c14f05926a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3259cc267829dbba6188c507a0bffad') in 0.012947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Texture_01_A.png
+  artifactKey: Guid(67cb44fbdc202b44e971ac2b57d5ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Texture_01_A.png using Guid(67cb44fbdc202b44e971ac2b57d5ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6255b61f7839b922397bbb87efbce263') in 0.010901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Embers_01.prefab
+  artifactKey: Guid(0408eb392f6850340809db1a980a2d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Embers_01.prefab using Guid(0408eb392f6850340809db1a980a2d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e68bbb993c5b7e458f78b621689124') in 0.011341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_GlowSpot_03.prefab
+  artifactKey: Guid(3d103d65aaa62f34e8e9ad872c5735fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_GlowSpot_03.prefab using Guid(3d103d65aaa62f34e8e9ad872c5735fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8690e43f9b9fe85cd4beca8622e553') in 0.011631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Nuke_Smaller_01.prefab
+  artifactKey: Guid(d30546528f8d747479f6cb7e54a15a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Nuke_Smaller_01.prefab using Guid(d30546528f8d747479f6cb7e54a15a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdab7ad6c696419575175a29306e959') in 0.015054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Money_Coin_01.fbx
+  artifactKey: Guid(21f9ef9f074f5304d9971cd99755a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Money_Coin_01.fbx using Guid(21f9ef9f074f5304d9971cd99755a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e270bde68e7e996cd5ef7ab9eba0e7') in 0.015706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fireworks_Small_Orange_01.prefab
+  artifactKey: Guid(a66858a1e56e703498927e15f1a8b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fireworks_Small_Orange_01.prefab using Guid(a66858a1e56e703498927e15f1a8b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f79ae224f0a93c80b24f10eade50f8b') in 0.016200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Portal_Round_01.prefab
+  artifactKey: Guid(2b0d7f8f779c4ed4b96621647861c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Portal_Round_01.prefab using Guid(2b0d7f8f779c4ed4b96621647861c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079542d94e4a963909f9360ef47edcd0') in 0.013173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_SunBeam_Small_01.prefab
+  artifactKey: Guid(b3a28f566bc928b4a8d3b9b5e84a3b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_SunBeam_Small_01.prefab using Guid(b3a28f566bc928b4a8d3b9b5e84a3b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84473f792bef87688c83640b5bf71d34') in 0.013152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Bullet_Trail.fbx
+  artifactKey: Guid(91319d540e88354488b665f7aeab322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Bullet_Trail.fbx using Guid(91319d540e88354488b665f7aeab322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d1a24ea90205c66acaf842df45c693') in 0.012478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Slash_01.prefab
+  artifactKey: Guid(ba1ddd059de115f44b44ff52413832aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Slash_01.prefab using Guid(ba1ddd059de115f44b44ff52413832aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15ca9fca6ce06ae0dc047b5a5e4266e') in 0.011640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Cloud_Placement_01.fbx
+  artifactKey: Guid(cd1be466bb5188941bd9078edd9becd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Cloud_Placement_01.fbx using Guid(cd1be466bb5188941bd9078edd9becd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3e3ef372e5ea125b2148ec7dd2b923') in 0.012833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Slash_Large_01.prefab
+  artifactKey: Guid(73043e7e6fb36e342b9337207bf317d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Slash_Large_01.prefab using Guid(73043e7e6fb36e342b9337207bf317d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ce1b3e456fa1b74a5a4cfc886ccb3a') in 0.010917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Wind.png
+  artifactKey: Guid(bdf00413f80cc3f48a0036afb20b48bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Wind.png using Guid(bdf00413f80cc3f48a0036afb20b48bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7f7f2952bd57bb345e82752bcd8858') in 0.009642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_LightRay_Cube.mat
+  artifactKey: Guid(e6d1b113ac12bfc45a46c2e5991e3eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_LightRay_Cube.mat using Guid(e6d1b113ac12bfc45a46c2e5991e3eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50762e1f085627d5189c7cd03fc1273e') in 0.009494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticles_Material_01_A.mat
+  artifactKey: Guid(82eb6f79a83225a4a9d4586b6fcea4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticles_Material_01_A.mat using Guid(82eb6f79a83225a4a9d4586b6fcea4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f6546b5392881c697a814dd910493b') in 0.012080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Sphere_Puff_01.fbx
+  artifactKey: Guid(ea8b579fee027444ba23862cc3cc5956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Sphere_Puff_01.fbx using Guid(ea8b579fee027444ba23862cc3cc5956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ddddcded026b23dcbb26d3d7ebea38') in 0.016330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Heal_01.prefab
+  artifactKey: Guid(c7f93a0255162fd47bbe40874f339bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Heal_01.prefab using Guid(c7f93a0255162fd47bbe40874f339bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047d9630d5332aa296e0e314c498f813') in 0.012545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Cone_01.fbx
+  artifactKey: Guid(cec2b9851c870834f9b042c808cff53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Cone_01.fbx using Guid(cec2b9851c870834f9b042c808cff53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05e898ff082fb34f9cf662f6a04a460') in 0.015779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Sun_Beams.mat
+  artifactKey: Guid(17a4c6781d082ff4a94fd2985ec70739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Sun_Beams.mat using Guid(17a4c6781d082ff4a94fd2985ec70739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b302f0601babad68cf34a282b25eb6a') in 0.012125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_Wep_Ammo_BulletLarge_01.fbx
+  artifactKey: Guid(9617305e7e2c7094fb534b7d3afc9a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_Wep_Ammo_BulletLarge_01.fbx using Guid(9617305e7e2c7094fb534b7d3afc9a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7681c0db75fe0f0db94e86d87fb8fb6') in 0.013468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Vine_01.fbx
+  artifactKey: Guid(8ffd52849720fc94e85116e8a516870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Vine_01.fbx using Guid(8ffd52849720fc94e85116e8a516870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6bab7a5c65af46a1c4f0145ae51689') in 0.013855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fireball_Shooting_Straight_01.prefab
+  artifactKey: Guid(9bdee3723a4e52c4ca2af5bc5b56474a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fireball_Shooting_Straight_01.prefab using Guid(9bdee3723a4e52c4ca2af5bc5b56474a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eac44f4df2c2d6fb389922249eff296') in 0.015186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Impact_Metal_01.prefab
+  artifactKey: Guid(57e18706e2792ff4bb5561ed74b796e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Impact_Metal_01.prefab using Guid(57e18706e2792ff4bb5561ed74b796e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b122610503d05a0c3f3984d2eb3ee67b') in 0.011487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Poison_Green_01.prefab
+  artifactKey: Guid(61400dcd69108c64b970eb523f3d1783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Poison_Green_01.prefab using Guid(61400dcd69108c64b970eb523f3d1783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c375ca9993e7e0f1fca53ec73fab047') in 0.012621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_FlameThrower_02.prefab
+  artifactKey: Guid(ef4d31ab810a39b499877583c1f6a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_FlameThrower_02.prefab using Guid(ef4d31ab810a39b499877583c1f6a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6a27b4e118745392c270a15de6ba2f') in 0.013451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Rock_01.mat
+  artifactKey: Guid(52afa9e4bf9887a44aedbc2a547b658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Rock_01.mat using Guid(52afa9e4bf9887a44aedbc2a547b658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5909095b5387de5d58013285a085a7') in 0.010876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Hexagon_02.prefab
+  artifactKey: Guid(f36719335e2592340b7bbb6a8ea33882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Hexagon_02.prefab using Guid(f36719335e2592340b7bbb6a8ea33882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f4158b66f95d0f2637a3275364f29f') in 0.013692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/SunShafts.fbx
+  artifactKey: Guid(26e4a750d47e56a408d32a571488849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SunShafts.fbx using Guid(26e4a750d47e56a408d32a571488849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df298360f6d5160d04c27bb574aa124b') in 0.014958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Leave.png
+  artifactKey: Guid(da01a20cc90345948b6eaae7ec14bf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Leave.png using Guid(da01a20cc90345948b6eaae7ec14bf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69ec9d65a2c2ddc6518efdf111360dc') in 0.011900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Models/Materials/PolygonApocalypse_Texture_01_Cleaned.mat
+  artifactKey: Guid(c68d9df9a3699014ba2732bd9a7388d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/Materials/PolygonApocalypse_Texture_01_Cleaned.mat using Guid(c68d9df9a3699014ba2732bd9a7388d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3555c5d2d970e23fe0b9c8a6979e6e45') in 0.010506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Shard_Rock_02.fbx
+  artifactKey: Guid(229fc241a317bb44084236f392685781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Shard_Rock_02.fbx using Guid(229fc241a317bb44084236f392685781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ee15a9fdda138b178b5d60731d7eb7') in 0.014318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_MagicBlast_01.prefab
+  artifactKey: Guid(79f561344a9b0d54bb31290904c765bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_MagicBlast_01.prefab using Guid(79f561344a9b0d54bb31290904c765bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4d5764b7e7be49386f109d8af47913') in 0.013141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_ShardIce_Explosion_01.prefab
+  artifactKey: Guid(15020532ea6e8b449a74e895e1097087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_ShardIce_Explosion_01.prefab using Guid(15020532ea6e8b449a74e895e1097087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e006edaedb8dbb91aafd1455dfabf07') in 0.018700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Wings_Grid.mat
+  artifactKey: Guid(ca8b896b1da14284ca29c35595cb750e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Wings_Grid.mat using Guid(ca8b896b1da14284ca29c35595cb750e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fe81d98dcffaf5009befd1668c7e32') in 0.012097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Grenade_02.fbx
+  artifactKey: Guid(f6a35247c964ce24ea2b90233ddd7de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Grenade_02.fbx using Guid(f6a35247c964ce24ea2b90233ddd7de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775dbdd71447bdaa4f5ada4c2ba22809') in 0.013438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Electricity_01.prefab
+  artifactKey: Guid(c445b201205907b4f90b242a07f4dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Electricity_01.prefab using Guid(c445b201205907b4f90b242a07f4dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a123f93ada5f0c8da01269eef8c89275') in 0.011648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Sparkle 1.mat
+  artifactKey: Guid(75375bb6651b4c84995a0dbbc490cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Sparkle 1.mat using Guid(75375bb6651b4c84995a0dbbc490cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a089808f8158df936a766af93490695b') in 0.010660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_GlowSpot_02.prefab
+  artifactKey: Guid(27a7f93524a582440b2e162bf001be78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_GlowSpot_02.prefab using Guid(27a7f93524a582440b2e162bf001be78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c739f238e6ea4d506bbc3b7cc31913a4') in 0.010861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_BloodSplat_Small_01.prefab
+  artifactKey: Guid(ed67c2cb8e3a7fb418c6fbb1b001dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_BloodSplat_Small_01.prefab using Guid(ed67c2cb8e3a7fb418c6fbb1b001dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bf662e3c191efb0f381592334b5281') in 0.010320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_SwordStab_01.prefab
+  artifactKey: Guid(16b154ffbfe6c5841b0a46456345a632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_SwordStab_01.prefab using Guid(16b154ffbfe6c5841b0a46456345a632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a8f4cabf576e370c36e2482ea53507') in 0.014364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_HalfCircle.mat
+  artifactKey: Guid(98c2cb3a48b9fc849ae1b47e397eaece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_HalfCircle.mat using Guid(98c2cb3a48b9fc849ae1b47e397eaece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b5822350b5d6ad04013390c78fbf08') in 0.009872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Poison_Purple_01.prefab
+  artifactKey: Guid(c1d501f0836891042af0a9b9060d3ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Poison_Purple_01.prefab using Guid(c1d501f0836891042af0a9b9060d3ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5431caa83c739ab499399706415e9d4') in 0.011388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Models/SM_GoreChunk_02.fbx
+  artifactKey: Guid(7330bdfd8fa2561418b84fbde0d69547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/SM_GoreChunk_02.fbx using Guid(7330bdfd8fa2561418b84fbde0d69547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbfc9bf6df629cab70ad0b073679b5c') in 0.015499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Sniper_Line_01.prefab
+  artifactKey: Guid(07277f9efe2374047bf57bdba847e02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Gunshot_Sniper_Line_01.prefab using Guid(07277f9efe2374047bf57bdba847e02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6143c0ae9122038de52b16055c58b63') in 0.015267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Dust_Small_01.prefab
+  artifactKey: Guid(d599d264aedd3aa4684f39e078823d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Dust_Small_01.prefab using Guid(d599d264aedd3aa4684f39e078823d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7737d5e265dcd4e578d65a687b00a93e') in 0.010720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Sparkles_Small_01.prefab
+  artifactKey: Guid(24506cea1025d6241b81eed5c90ee609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Sparkles_Small_01.prefab using Guid(24506cea1025d6241b81eed5c90ee609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afef625cf070291acf9f86bbc858befe') in 0.010875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_SemiCircle.mat
+  artifactKey: Guid(65a599a464dcddd4bbad0dae75e567e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_SemiCircle.mat using Guid(65a599a464dcddd4bbad0dae75e567e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff289132006ed3612f7c7f69a68eb5f') in 0.010125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Sphere_02.fbx
+  artifactKey: Guid(3d4c37fb8fc8e6a4cbfd5d1691942a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Sphere_02.fbx using Guid(3d4c37fb8fc8e6a4cbfd5d1691942a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68f81bf77a9ff95ed9ae6ff925b6595') in 0.012431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Bullet_Trail_01.fbx
+  artifactKey: Guid(3a39e5c96bdfa69419bbc849a8aba2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Bullet_Trail_01.fbx using Guid(3a39e5c96bdfa69419bbc849a8aba2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923c16904e34f47e91291f495435dc73') in 0.012844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Smoke_01.png
+  artifactKey: Guid(608b0bba5c9806149ae5d24a33c606de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Smoke_01.png using Guid(608b0bba5c9806149ae5d24a33c606de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf90a51b3ab4dd0348a8b72875e6ad4') in 0.009805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Smoke_White_01.prefab
+  artifactKey: Guid(2d375605610a4e84d8e1d80a70c9340a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Smoke_White_01.prefab using Guid(2d375605610a4e84d8e1d80a70c9340a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbb179d208f3b8ad247be7107e3aa39') in 0.010900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Trail_Dust_01.prefab
+  artifactKey: Guid(2966910701d40974c87f0338bb5694e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Trail_Dust_01.prefab using Guid(2966910701d40974c87f0338bb5694e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c27b2e6ddc0493fc61b6035e91830a0') in 0.011352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Emission.mat
+  artifactKey: Guid(11110f8b297fb5842984fab30e790888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Emission.mat using Guid(11110f8b297fb5842984fab30e790888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2692856fb48c73e63627dcccdfd5a2c5') in 0.009624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_CrystalShard_01.fbx
+  artifactKey: Guid(97d2b5f212fdaea4c945e42da71da052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_CrystalShard_01.fbx using Guid(97d2b5f212fdaea4c945e42da71da052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5629ebe32615e2b5356cb5164d46dc1') in 0.012094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Dust_Big_01.prefab
+  artifactKey: Guid(b8f929e2e3a24894db6cbd97a2a83429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Dust_Big_01.prefab using Guid(b8f929e2e3a24894db6cbd97a2a83429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b999e2a55c51c2ca5344ae4c085c01f4') in 0.010549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fire_Big_02.prefab
+  artifactKey: Guid(508c9f007a2bf724d88361f16953bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fire_Big_02.prefab using Guid(508c9f007a2bf724d88361f16953bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa671f5194060d6404fc788e84b282f') in 0.011649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_RitualCircle_01.png
+  artifactKey: Guid(a0b77b3cfe92a174e82c48936951c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_RitualCircle_01.png using Guid(a0b77b3cfe92a174e82c48936951c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa2631246f19a090dba2f9fb3bde4b0') in 0.009725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Fumes_02.png
+  artifactKey: Guid(35fe97dffff1d60489cad17aa767c885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Fumes_02.png using Guid(35fe97dffff1d60489cad17aa767c885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98188830c049046470d7e147e3641f2') in 0.010071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Question_01.fbx
+  artifactKey: Guid(3f944baf59b70184884a2e70d08fbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Question_01.fbx using Guid(3f944baf59b70184884a2e70d08fbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f709dd057f4d32647c8099a2fa25543') in 0.012649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_RainbowCircle.png
+  artifactKey: Guid(b9f7df66400b4354b98f61c735542521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_RainbowCircle.png using Guid(b9f7df66400b4354b98f61c735542521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c98b09947a55b2d1b0049b59bb9fe70') in 0.010530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Rings_01.prefab
+  artifactKey: Guid(3b6cfde4f3deb8d4c9146d2e65ed12e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Cartoony_Rings_01.prefab using Guid(3b6cfde4f3deb8d4c9146d2e65ed12e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dee68e2da8a882d797ee3f6e51ecdab') in 0.011983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Circle_02.png
+  artifactKey: Guid(3b8dc5e143e5ce748bbbb8cca21399cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Circle_02.png using Guid(3b8dc5e143e5ce748bbbb8cca21399cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c172bc1cc4711faf00b7c384d16ec5') in 0.008965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Leaves_Blossom_01.prefab
+  artifactKey: Guid(3c27b2af80d80f647974f9ad36050370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Leaves_Blossom_01.prefab using Guid(3c27b2af80d80f647974f9ad36050370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5e2b4b1575b31747d136477d25a50e') in 0.011825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fog_Small_01.prefab
+  artifactKey: Guid(b72bef528f099a14d8eab50350452f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fog_Small_01.prefab using Guid(b72bef528f099a14d8eab50350452f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85073d80d9cd7337db9f68668dd470c') in 0.010625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Textures/PolygonParticles_Soft_Spot_Dark.png
+  artifactKey: Guid(c8660b4dcd717b846900ad32c22a9162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Textures/PolygonParticles_Soft_Spot_Dark.png using Guid(c8660b4dcd717b846900ad32c22a9162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b1dc337d146223ba15d35cbfdd5d11') in 0.009398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonParticleFX/Models/FX_Ring_01.fbx
+  artifactKey: Guid(d8ce0e1d424a10942b12ca0471197832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Models/FX_Ring_01.fbx using Guid(d8ce0e1d424a10942b12ca0471197832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a33609e50ff3fb2765d9cd3877a2948') in 0.012139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Fire_Explosion_01.prefab
+  artifactKey: Guid(ed511b7776af6174e9b1255c7a81e59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Fire_Explosion_01.prefab using Guid(ed511b7776af6174e9b1255c7a81e59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd3b4adbd7349a6be595a9947580356') in 0.011954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Repeating_Large_01.prefab
+  artifactKey: Guid(ba1c4a66ca9ef11458583cbca68b0691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Prefabs/FX_Shell_Ejection_Repeating_Large_01.prefab using Guid(ba1c4a66ca9ef11458583cbca68b0691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575a7860a3fed4c624e697993e210a06') in 0.013024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Fumes.mat
+  artifactKey: Guid(36fed2b2ce033b240899903fe04df57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Fumes.mat using Guid(36fed2b2ce033b240899903fe04df57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef65a3c57eff4c6a9bb7e7c0b0707ce') in 0.010070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round_VertexLit.mat
+  artifactKey: Guid(a56a6d4404bb5944c8e5a9bd16f2b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonParticleFX/Materials/PolygonParticleFX_Cutout_Round_VertexLit.mat using Guid(a56a6d4404bb5944c8e5a9bd16f2b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc9a59b44424070fd01cc50c412602e') in 0.010292 seconds 
