@@ -98,7 +98,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("GetMouseButtonDown");
+            //Debug.Log("GetMouseButtonDown");
             RaycastHit hit;
 
             if (Physics.Raycast(

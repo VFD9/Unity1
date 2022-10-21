@@ -69,6 +69,7 @@
     <Compile Include="Assets\Resources\Scripts\BulletController.cs" />
     <Compile Include="Assets\View\ViewTest.cs" />
     <Compile Include="Assets\Resources\FrustumLine.cs" />
+    <Compile Include="Assets\Resources\FindShader.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\View\FieldOfView.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />

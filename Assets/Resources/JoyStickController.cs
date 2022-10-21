@@ -37,7 +37,7 @@ public class JoyStickController : MonoBehaviour, IDragHandler, IPointerUpHandler
 
         // ** 움직임 계산.
         OnTouch(eventData.position);
-        Debug.Log(eventData.position);
+        //Debug.Log(eventData.position);
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -94,7 +94,7 @@ public class JoyStickController : MonoBehaviour, IDragHandler, IPointerUpHandler
 
     private void OnTouch(Vector2 _eventData)
     {
-        Debug.Log("OnTouch");
+        //Debug.Log("OnTouch");
 
         // ** Stick 의 중앙으로부터 터치가 스크린을 이동한 거리를 구함.
         Stick.localPosition = new Vector2(_eventData.x - BackBoard.position.x, _eventData.y - BackBoard.position.y);

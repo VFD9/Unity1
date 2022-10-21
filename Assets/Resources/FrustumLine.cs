@@ -57,7 +57,9 @@ public class FrustumLine : MonoBehaviour
 		RendererList.Clear();
 
 		foreach (GameObject Element in CullingList)
+		{
 			StartCoroutine(FindRenderer(Element));
+		}
 
 		foreach (MeshRenderer Element in RendererList) // 플레이어 카메라에 걸리는 객체를 투명하게 만들어줌
 		{
