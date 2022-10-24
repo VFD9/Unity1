@@ -5,6 +5,7 @@ using UnityEngine;
 public class FrustumLine : MonoBehaviour
 {
 	private Camera mainCamera;
+	public Shader TargetShader;
 
 	private Vector3[] CameraFrustum = new Vector3[4];
 	[SerializeField] private List<MeshRenderer> RendererList = new List<MeshRenderer>();
@@ -15,8 +16,6 @@ public class FrustumLine : MonoBehaviour
 
 	[Range(0.0f, 1.0f)]
 	public float X, Y, CX, CY;
-
-	private bool Check;
 
 	private void Awake()
 	{
@@ -30,7 +29,7 @@ public class FrustumLine : MonoBehaviour
 		mainCamera = transform.GetComponent<Camera>();
 	}
 
-	private void FixedUpdate()
+    private void FixedUpdate()
 	{
 		mainCamera.CalculateFrustumCorners(
 			new Rect(X, Y, CX, CY),
@@ -58,6 +57,12 @@ public class FrustumLine : MonoBehaviour
 
 		foreach (GameObject Element in CullingList)
 		{
+			if (!Element.GetComponent<FindShader>())
+				Element.AddComponent<FindShader>();
+
+			if(!TargetShader)
+				TargetShader = Element.GetComponent<MeshRenderer>().sharedMaterial.shader;
+
 			StartCoroutine(FindRenderer(Element));
 		}
 
@@ -68,7 +73,7 @@ public class FrustumLine : MonoBehaviour
 			if (Element.material.HasProperty("_Color"))
 			{
 				Color color = Element.material.GetColor("_Color");
-
+				
 				StartCoroutine(SetColor(Element, color));
 			}
 		}
