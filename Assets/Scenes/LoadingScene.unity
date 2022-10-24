@@ -2701,7 +2701,7 @@ GameObject:
   - component: {fileID: 79327388}
   m_Layer: 9
   m_Name: Hangar_v2_outbuilding1 (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4731,7 +4731,7 @@ GameObject:
   - component: {fileID: 149302155}
   m_Layer: 9
   m_Name: Hangar_v2_outbuilding1 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14407,7 +14407,7 @@ GameObject:
   - component: {fileID: 548214734}
   m_Layer: 9
   m_Name: House7
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19549,7 +19549,7 @@ GameObject:
   - component: {fileID: 739458759}
   m_Layer: 9
   m_Name: OilTank
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36945,7 +36945,7 @@ GameObject:
   - component: {fileID: 1548913767}
   m_Layer: 9
   m_Name: Hangar_v1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37022,6 +37022,7 @@ Transform:
   - {fileID: 149302154}
   - {fileID: 79327387}
   - {fileID: 4712247296752568065}
+  - {fileID: 6538133666866120406}
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -50776,7 +50777,7 @@ GameObject:
   - component: {fileID: 3231928928103070663}
   m_Layer: 9
   m_Name: House3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50974,7 +50975,7 @@ GameObject:
   - component: {fileID: 1192845801008148862}
   m_Layer: 9
   m_Name: House1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51169,7 +51170,7 @@ GameObject:
   - component: {fileID: 661262894084534216}
   m_Layer: 9
   m_Name: Hangar_v3.2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51203,7 +51204,7 @@ GameObject:
   - component: {fileID: 778813110215217022}
   m_Layer: 9
   m_Name: Hangar_v3.1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51300,7 +51301,7 @@ GameObject:
   - component: {fileID: 3171168135002922802}
   m_Layer: 9
   m_Name: House4
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51542,7 +51543,7 @@ GameObject:
   - component: {fileID: 1437839649858819388}
   m_Layer: 9
   m_Name: Hangar_v4
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51555,7 +51556,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373979556785261902}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 50.63162, y: 6.4, z: -20.29}
+  m_LocalPosition: {x: 51.39, y: 6.4, z: -20.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51718,7 +51719,7 @@ GameObject:
   - component: {fileID: 1521288356417336870}
   m_Layer: 9
   m_Name: Hangar_v7
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52025,7 +52026,7 @@ GameObject:
   - component: {fileID: 2192863419051720258}
   m_Layer: 9
   m_Name: Hangar_v6_1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52330,7 +52331,7 @@ GameObject:
   - component: {fileID: 2832446860780144884}
   m_Layer: 9
   m_Name: Hangar_v2_outbuilding1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52951,7 +52952,7 @@ GameObject:
   - component: {fileID: 9128664857656578915}
   m_Layer: 9
   m_Name: AutoService
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53554,7 +53555,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4713293604589303841}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 65.68518, y: 5.68, z: -19.090199}
+  m_LocalPosition: {x: 67.02, y: 5.68, z: -19.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53575,7 +53576,7 @@ GameObject:
   - component: {fileID: 4722069999709033233}
   m_Layer: 9
   m_Name: Hangar_v2_basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54171,7 +54172,7 @@ GameObject:
   - component: {fileID: 4894684469708046708}
   m_Layer: 9
   m_Name: Hangar_v2.7
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54821,7 +54822,7 @@ GameObject:
   - component: {fileID: 7367901887299506126}
   m_Layer: 9
   m_Name: House6
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54868,7 +54869,7 @@ GameObject:
   - component: {fileID: 5359459149559183130}
   m_Layer: 9
   m_Name: Hangar_v2_2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55441,6 +55442,89 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9209810447712e145b4621520c481b46, type: 3}
+--- !u!1 &6535186578237091390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6538133666866120406}
+  - component: {fileID: 6541220378067765566}
+  - component: {fileID: 6549252504126820104}
+  m_Layer: 9
+  m_Name: Hangar_v2_3
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6538133666866120406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6535186578237091390}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 83.88, y: 0, z: -20.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1549220855}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!33 &6541220378067765566
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6535186578237091390}
+  m_Mesh: {fileID: 4300000, guid: a0c65fac4e030764dbdd445dc81af4b4, type: 3}
+--- !u!23 &6549252504126820104
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6535186578237091390}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8d81f9b16a9135446b5451caa37570ee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &6629810505421113058
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55520,7 +55604,7 @@ GameObject:
   - component: {fileID: 746780164004279369}
   m_Layer: 9
   m_Name: House2
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55539,7 +55623,7 @@ GameObject:
   - component: {fileID: 6771088884898967386}
   m_Layer: 9
   m_Name: Hangar_v2_outbuilding3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55882,7 +55966,7 @@ GameObject:
   - component: {fileID: 7119102558307615926}
   m_Layer: 9
   m_Name: Hangar_v5.5
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55980,7 +56064,7 @@ GameObject:
   - component: {fileID: 8090190404980976776}
   m_Layer: 9
   m_Name: House5
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56224,7 +56308,7 @@ GameObject:
   - component: {fileID: 971453968938431826}
   m_Layer: 9
   m_Name: Bank_01
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
