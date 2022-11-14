@@ -429,6 +429,7 @@ GameObject:
   - component: {fileID: 7670114538917993900}
   - component: {fileID: 1719009840050394288}
   - component: {fileID: 1329297923070351364}
+  - component: {fileID: 4352059806746477710}
   m_Layer: 3
   m_Name: Tank
   m_TagString: Player
@@ -485,10 +486,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 184c148f5f504f34d9683c677bc9744c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0
-  Rotate: 0
   FirePointObject: {fileID: 7310199183017767853}
   Bullet: {fileID: 2433282508537954060, guid: 2bff90974c8545d4f9e30edb3491e0f5, type: 3}
+  TargetMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!65 &1719009840050394288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -500,8 +502,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.7, y: 0.8, z: 1.7}
-  m_Center: {x: 0, y: 0, z: -0.1}
+  m_Size: {x: 1.7, y: 1.2, z: 2.33}
+  m_Center: {x: 0, y: -0.165, z: -0.1}
 --- !u!135 &1329297923070351364
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -513,8 +515,22 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.6
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Radius: 0.7
+  m_Center: {x: 0, y: 0.49, z: 0}
+--- !u!136 &4352059806746477710
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3982694798269769625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.06
+  m_Height: 1
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.78, z: 1.1}
 --- !u!1 &5427964574904530917
 GameObject:
   m_ObjectHideFlags: 0

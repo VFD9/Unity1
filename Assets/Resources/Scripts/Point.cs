@@ -7,6 +7,9 @@ using UnityEngine;
 public class Point : MonoBehaviour
 {
     private GameObject Target;
+
+    public bool ZombieSpawn;
+
     [SerializeField] private List<MeshRenderer> RendererList = new List<MeshRenderer>();
 
     [HideInInspector] public Point Node;
@@ -15,15 +18,13 @@ public class Point : MonoBehaviour
 
 	private void Awake()
 	{
-        //Debug.Log(mask.value);
-
         Rigidbody rigid = GetComponent<Rigidbody>();
         rigid.constraints = RigidbodyConstraints.FreezeRotation;
 
-        Target = Resources.Load("Prefabs/Enemy") as GameObject;
+        Target = Resources.Load("Prefabs/Zombie") as GameObject;
     }
-
-    void FindRenderer(GameObject _obj)
+    
+	void FindRenderer(GameObject _obj)
 	{
         for(int i = 0; i < _obj.transform.childCount; ++i)
 		{
@@ -58,16 +59,16 @@ public class Point : MonoBehaviour
         }
 
         transform.position = new Vector3(
-            Random.Range(-25.0f, 25.0f),
-            Random.Range(10.0f, 25.0f),
-            Random.Range(-25.0f, 25.0f));
+                Random.Range(-30.0f, -5.0f),
+                Random.Range(10.0f, 25.0f),
+                Random.Range(-25.0f, -5.0f));
 
         transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
     }
-
+    
     IEnumerator Create()
 	{
-        while (true)
+        while (!ZombieSpawn)
         {
             yield return new WaitForSeconds(3.0f);
 
@@ -76,17 +77,26 @@ public class Point : MonoBehaviour
 
             GameObject Obj = Instantiate(Target);
 
+            Obj.transform.localScale = Vector3.Lerp(Obj.transform.localScale, new Vector3(Random.Range(1.0f, 1.5f), Random.Range(1.0f, 2.0f), 1), Time.deltaTime);
             Obj.transform.position = transform.position;
-
             Obj.transform.parent = transform;
+            Obj.name = Target.name;
+
+            //if(transform)
+            //{
+            //    transform.position = new Vector3(
+            //       Random.Range(-29.0f, -4.0f),
+            //       Random.Range(10.0f, 25.0f),
+            //       Random.Range(-25.0f, -5.0f));
+            //
+            //    transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
+            //}
 
             RendererList.Clear();
             FindRenderer(Obj);
 
             foreach (MeshRenderer meshRenderer in RendererList)
             {
-                //MeshRenderer meshRenderer = Obj.GetComponent<MeshRenderer>();
-
                 meshRenderer.material.shader = Shader.Find("Transparent/VertexLit");
 
                 if (meshRenderer.material.HasProperty("_Color"))

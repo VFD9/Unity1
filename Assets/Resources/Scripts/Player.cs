@@ -9,6 +9,10 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    
+}
+
+/*
     public float Speed;
     public float Rotate;
 
@@ -38,18 +42,18 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        Speed = 5.0f;
-        Rotate = 100.0f;
+        //Speed = 5.0f;
+        //Rotate = 100.0f;
     }
 
     void Update()
     {
-        Movement = new Vector3(
-            Input.GetAxisRaw("Horizontal") * Speed * Time.deltaTime,
-            0.0f,
-            Input.GetAxisRaw("Vertical") * Speed * Time.deltaTime);
-
-        transform.position += Movement;
+        //Movement = new Vector3(
+        //    Input.GetAxisRaw("Horizontal") * Speed * Time.deltaTime,
+        //    0.0f,
+        //    Input.GetAxisRaw("Vertical") * Speed * Time.deltaTime);
+        //
+        //transform.position += Movement;
 
         /*
         // ** 키 입력을 받아온다.
@@ -84,47 +88,43 @@ public class Player : MonoBehaviour
         {
             Anim.SetBool("BoolFire", false);
         }
-        */
 
-        /*
         Vector3 TargetPoint = Camera.main.WorldToScreenPoint(transform.position);
 
         Vector3 Direction = new Vector3((Input.mousePosition - TargetPoint).x, 0.0f,
             (Input.mousePosition - TargetPoint).y).normalized;
 
         transform.LookAt(Direction + transform.position);
-        */
 
 
         if (Input.GetMouseButtonDown(0))
         {
             //Debug.Log("GetMouseButtonDown");
             RaycastHit hit;
-
+        
             if (Physics.Raycast(
                 FirePointObject.transform.position,
                 FirePointObject.transform.forward,
                 out hit, 1000.0f, TargetMask))
-			{
+        	{
                 GameObject Obj = Instantiate(Bullet);
-
+        
                 offset = new Vector3(
                     Random.Range(-0.25f, 0.25f),
                     Random.Range(-0.25f, 0.25f),
                     0.0f);
-
+        
                 Obj.transform.position = hit.point + offset;
-
-				Debug.DrawLine(FirePointObject.transform.position, hit.point);
-
+        
+        		Debug.DrawLine(FirePointObject.transform.position, hit.point);
+        
                 Destroy(Obj, 1.5f);
-			}
+        	}
         }
 
-        /*
         if (Input.GetMouseButton(0))
         {
-            
+
             Head.transform.Rotate(0.0f, MouseX * 200 * Time.deltaTime, 0.0f);
 
             Quaternion HeadQuaternion = Quaternion.Euler(new Vector3(0.0f, MouseX, 0.0f));
@@ -133,7 +133,6 @@ public class Player : MonoBehaviour
                     Head.transform.rotation,
                     HeadQuaternion,
                     Time.deltaTime* 10.0f);
-        }
-        */
+         }
     }
-}
+*/

@@ -24,7 +24,8 @@ public class FrustumLine : MonoBehaviour
 		CX = 0.1f;
 		CY = 0.1f;
 
-		Distance = 13.0f;
+		//Distance = 13.0f;
+		Distance = 1.0f;
 
 		mainCamera = transform.GetComponent<Camera>();
 	}
@@ -60,8 +61,8 @@ public class FrustumLine : MonoBehaviour
 			if (!Element.GetComponent<FindShader>())
 				Element.AddComponent<FindShader>();
 
-			if(!TargetShader)
-				TargetShader = Element.GetComponent<MeshRenderer>().sharedMaterial.shader;
+			//if(!TargetShader)
+			//	TargetShader = Element.GetComponent<MeshRenderer>().sharedMaterial.shader;
 
 			StartCoroutine(FindRenderer(Element));
 		}

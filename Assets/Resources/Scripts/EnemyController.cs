@@ -2,16 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Antenna
-{
-    public float Angle;
-    public Vector3 Direction;
-    public bool Check;
-    public Color _Color;
-}
-
 public class EnemyController : MonoBehaviour
 {
+    
+}
+
+/*
     private List<Antenna> AntennasList = new List<Antenna>();
 
     private Vector3 Direction = new Vector3();
@@ -170,4 +166,4 @@ public class EnemyController : MonoBehaviour
             yield return null; // yield return null 은 yield return Time.deltaTime 과 동일하다
         }
     }
-}
+*/
