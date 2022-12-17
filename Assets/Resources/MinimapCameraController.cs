@@ -4,14 +4,8 @@ using UnityEngine;
 
 public class MinimapCameraController : MonoBehaviour
 {
-    private GameObject Target;
-    private RectTransform PlayerImage;
-
-    private void Start()
-    {
-        Target = GameObject.FindGameObjectWithTag("Player");
-        PlayerImage = GameObject.Find("Image").GetComponent<RectTransform>();
-    }
+    public GameObject Target;
+    public Transform PlayerImage;
 
     private void FixedUpdate()
 	{
@@ -22,7 +16,7 @@ public class MinimapCameraController : MonoBehaviour
               100.0f,
               Target.transform.position.z);
 
-            PlayerImage.transform.eulerAngles = new Vector3(Target.transform.rotation.x, 0.0f, Target.transform.rotation.z);
+            PlayerImage.rotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, -Target.transform.localEulerAngles.y));
         }
     }
 }

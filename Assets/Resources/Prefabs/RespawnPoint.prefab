@@ -46,7 +46,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2204bc900f84f2948895a3288b4704b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ZombieSpawn: 0
   RendererList: []
   Node: {fileID: 0}
   mask:

@@ -58,9 +58,6 @@ public class FrustumLine : MonoBehaviour
 
 		foreach (GameObject Element in CullingList)
 		{
-			if (!Element.GetComponent<FindShader>())
-				Element.AddComponent<FindShader>();
-
 			//if(!TargetShader)
 			//	TargetShader = Element.GetComponent<MeshRenderer>().sharedMaterial.shader;
 

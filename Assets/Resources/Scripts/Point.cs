@@ -8,8 +8,6 @@ public class Point : MonoBehaviour
 {
     private GameObject Target;
 
-    public bool ZombieSpawn;
-
     [SerializeField] private List<MeshRenderer> RendererList = new List<MeshRenderer>();
 
     [HideInInspector] public Point Node;
@@ -21,7 +19,7 @@ public class Point : MonoBehaviour
         Rigidbody rigid = GetComponent<Rigidbody>();
         rigid.constraints = RigidbodyConstraints.FreezeRotation;
 
-        Target = Resources.Load("Prefabs/Zombie") as GameObject;
+        Target = Manager.Instance.Zombie;
     }
     
 	void FindRenderer(GameObject _obj)
@@ -59,16 +57,16 @@ public class Point : MonoBehaviour
         }
 
         transform.position = new Vector3(
-                Random.Range(-30.0f, -5.0f),
-                Random.Range(10.0f, 25.0f),
-                Random.Range(-25.0f, -5.0f));
+                 Random.Range(-37.0f, -6.0f),
+                 Random.Range(10.0f, 25.0f),
+                 Random.Range(40.0f, 77.0f));
 
         transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
     }
     
     IEnumerator Create()
 	{
-        while (!ZombieSpawn)
+        while (true)
         {
             yield return new WaitForSeconds(3.0f);
 
@@ -81,6 +79,14 @@ public class Point : MonoBehaviour
             Obj.transform.position = transform.position;
             Obj.transform.parent = transform;
             Obj.name = Target.name;
+
+            //if(transform.childCount == 0)
+            //{
+            //    transform.position = new Vector3(
+            //     Random.Range(46.0f, 81.0f),
+            //     Random.Range(10.0f, 25.0f),
+            //     Random.Range(20.0f, 55.0f));
+            //}
 
             //if(transform)
             //{

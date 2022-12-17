@@ -6,13 +6,13 @@ public class SpawnPointList : MonoBehaviour
 {
     [SerializeField] private GameObject SpawnPoint;
 
-    List<GameObject> PointList = new List<GameObject>();
+    public List<GameObject> PointList = new List<GameObject>();
 
     void Start()
     {
         transform.name = "SpawnPointList";
 
-        for (int i = 0; i < 10; ++i)
+        for (int i = 0; i < 20; ++i)
         {
             GameObject Obj = Instantiate(SpawnPoint);
             
@@ -20,11 +20,11 @@ public class SpawnPointList : MonoBehaviour
             Obj.transform.name = "Point" + (i + 1);
 
             Obj.transform.position = new Vector3(
-                Random.Range(-30.0f, -5.0f),
-                Random.Range(10.0f, 25.0f),
-                Random.Range(-25.0f, -5.0f));
+                 Random.Range(-37.0f, -6.0f),
+                 Random.Range(10.0f, 25.0f),
+                 Random.Range(40.0f, 77.0f));
 
-             PointList.Add(Obj);
+            PointList.Add(Obj);
         }
     }
 }
