@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Text.RegularExpressions;
 
 [RequireComponent(typeof(BoxCollider))]
 [RequireComponent(typeof(Rigidbody))]
@@ -57,9 +59,9 @@ public class Point : MonoBehaviour
         }
 
         transform.position = new Vector3(
-                 Random.Range(-37.0f, -6.0f),
-                 Random.Range(10.0f, 25.0f),
-                 Random.Range(40.0f, 77.0f));
+                 UnityEngine.Random.Range(-45.0f, -14.0f),
+                 UnityEngine.Random.Range(3.0f, 5.0f),
+                 UnityEngine.Random.Range(45.0f, 90.0f));
 
         transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
     }
@@ -75,28 +77,10 @@ public class Point : MonoBehaviour
 
             GameObject Obj = Instantiate(Target);
 
-            Obj.transform.localScale = Vector3.Lerp(Obj.transform.localScale, new Vector3(Random.Range(1.0f, 1.5f), Random.Range(1.0f, 2.0f), 1), Time.deltaTime);
+            Obj.transform.localScale = Vector3.Lerp(Obj.transform.localScale, new Vector3(UnityEngine.Random.Range(1.0f, 1.5f), UnityEngine.Random.Range(1.0f, 2.0f), 1), Time.deltaTime);
             Obj.transform.position = transform.position;
             Obj.transform.parent = transform;
             Obj.name = Target.name;
-
-            //if(transform.childCount == 0)
-            //{
-            //    transform.position = new Vector3(
-            //     Random.Range(46.0f, 81.0f),
-            //     Random.Range(10.0f, 25.0f),
-            //     Random.Range(20.0f, 55.0f));
-            //}
-
-            //if(transform)
-            //{
-            //    transform.position = new Vector3(
-            //       Random.Range(-29.0f, -4.0f),
-            //       Random.Range(10.0f, 25.0f),
-            //       Random.Range(-25.0f, -5.0f));
-            //
-            //    transform.eulerAngles = new Vector3(0.0f, 0.0f, 0.0f);
-            //}
 
             RendererList.Clear();
             FindRenderer(Obj);
